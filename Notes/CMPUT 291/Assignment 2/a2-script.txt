@@ -1,0 +1,274 @@
+
+.print Question 1-sanad
+Question 1-sanad
+
+select distinct users.uid
+FROM badges, ubadges, users, posts, questions
+where badges.type='gold' and users.uid=ubadges.uid and posts.pid=questions.pid and poster=ubadges.uid;
+u001
+u002
+u003
+u004
+u005
+u016
+
+.print Question 2 - sanad
+Question 2 - sanad
+
+select distinct posts.pid, posts.title 
+from posts, questions, tags
+where posts.pid=questions.pid and tags.pid=questions.pid and (lower(tags.tag)='relational' or lower(posts.title) like '%relational database%')
+intersect 
+select distinct posts.pid, posts.title 
+from posts, questions, tags
+where posts.pid=questions.pid and tags.pid=questions.pid and (lower(tags.tag)='database' or lower(posts.title) like '%relational database%');
+p006|Relational algebra
+p007|ReLaTiOnAl DaTaBaSe SQL Queries
+p046|What do you think about relational databases?
+
+.print Question 3 - sanad
+Question 3 - sanad
+
+select questions.pid, posts.title
+from posts,
+questions left join answers on questions.pid=answers.qid
+where answers.pid IS NULL
+and questions.pid=posts.pid
+union
+select m1.pid, m1.title
+from (posts as p1 left join questions on questions.pid) as m1,(posts as p2 left join answers on answers.pid=p2.pid) as m2
+where  (m2.qid=m1.pid  and julianday(m2.pdate) - julianday(m1.pdate)>3);
+p001|What can I do to earn badges?
+p006|Relational algebra
+p007|ReLaTiOnAl DaTaBaSe SQL Queries
+p025|Do you enjoy working from home?
+p046|What do you think about relational databases?
+p052|Where do you see yourself in 10 years?
+
+.print Question-4 sanad
+Question-4 sanad
+select users.uid
+from users, questions, answers,posts
+where questions.pid= answers.qid and poster=users.uid and posts.pid=answers.pid
+intersect
+select users.uid
+from users, questions, posts
+where questions.pid= posts.pid and poster=users.uid
+group by users.uid,questions.pid;
+u001
+u002
+u003
+u004
+u005
+u016
+
+.print Question-5 sanad
+Question-5 sanad
+select users.uid
+from votes,users,posts, questions left join answers on questions.pid=answers.qid
+where answers.pid IS NOT NULL and questions.pid=posts.pid and users.uid=poster
+intersect
+select users.uid
+from votes users,posts, questions left join answers on questions.pid=answers.qid
+where answers.pid IS NOT NULL and answers.pid=posts.pid and users.uid=poster
+group by poster
+having count(vno)>4;
+u001
+u002
+u003
+u004
+u005
+u016
+
+.print Question-6 sanad
+Question-6 sanad
+
+select tags.tag,count(vno),freq
+from votes, tags join (select tags.tag, count(tags.pid) as freq
+from posts, tags
+where tags.pid=posts.pid
+group by tags.tag
+order by count(tags.pid) desc) as t1 on tags.tag=t1.tag
+where tags.pid=votes.pid and votes.pid=tags.pid
+group by tags.tag
+order by count(vno) desc
+limit 3
+;
+eggs|19|7
+society|18|7
+games|14|2
+
+.print Question 7 - sanad
+Question 7 - sanad
+
+select posts.pdate,tags.tag, count(posts.pid)
+from posts, tags
+where posts.pid=tags.pid
+group by pdate,tag
+order by posts.pdate desc,count(posts.pid) desc;
+2020-10-05|moments|1
+2020-10-05|life|1
+2020-10-05|happy|1
+2020-10-03|ten years|1
+2020-10-02|life|1
+2020-10-01|relational|2
+2020-10-01|database|1
+2020-09-28|eggs|7
+2020-09-28|sunny side up|1
+2020-09-28|scrambled|1
+2020-09-28|relational|1
+2020-09-28|poached|1
+2020-09-28|over medium|1
+2020-09-28|over easy|1
+2020-09-28|hard boiled|1
+2020-09-28|database|1
+2020-09-28|cooking|1
+2020-09-27|games|2
+2020-09-27|zooology|1
+2020-09-27|ungratifying|1
+2020-09-27|stress|1
+2020-09-27|smell|1
+2020-09-27|similar|1
+2020-09-27|sandbox|1
+2020-09-27|regex|1
+2020-09-27|media|1
+2020-09-27|learning|1
+2020-09-27|job|1
+2020-09-27|free|1
+2020-09-27|cooking|1
+2020-09-27|chef|1
+2020-09-27|career|1
+2020-09-27|archeology|1
+2020-09-26|websites|1
+2020-09-26|unknown|1
+2020-09-26|best|1
+2020-09-25|pie|1
+2020-09-25|cake|1
+2020-09-24|pie|2
+2020-09-24|cake|2
+2020-09-23|work|1
+2020-09-23|home|1
+2020-09-22|vehicles|1
+2020-09-22|sustainability|1
+2020-09-22|natural gas|1
+2020-09-22|climate change|1
+2020-09-22|carbon|1
+2020-09-22|autonomous|1
+2020-09-22|AI|1
+2020-09-21|rules|1
+2020-09-21|robotics|1
+2020-09-21|reality|1
+2020-09-21|nano|1
+2020-09-21|invention|1
+2020-09-21|innovation|1
+2020-09-21|information|1
+2020-09-21|gardening|1
+2020-09-21|fun|1
+2020-09-21|diseases|1
+2020-09-21|cancer|1
+2020-09-21|augmented|1
+2020-09-21|access|1
+2020-09-20|plants|1
+2020-09-20|gardening|1
+2019-05-14|society|5
+2019-05-14|space|3
+2019-05-14|life|3
+2019-05-14|piggy bank|2
+2019-05-14|ethics|2
+2019-05-14|universe|1
+2019-05-14|screwdriver|1
+2019-05-14|robot|1
+2019-05-14|rights|1
+2019-05-14|money|1
+2019-05-14|law|1
+2019-05-14|climate change|1
+2019-05-14|child|1
+2019-05-14|benefits|1
+2019-05-14|AI|1
+2019-03-14|success|1
+2019-03-14|life|1
+2019-03-11|sql|1
+2019-03-11|relational|1
+2019-03-11|queries|1
+2019-03-11|database|1
+2019-03-10|unique|1
+2019-03-10|queries|1
+2019-03-10|Relational|1
+2019-03-10|Database|1
+2019-03-10|Algebra|1
+2019-02-05|society|2
+2019-02-05|life|2
+2019-02-05|world|1
+2019-02-05|unique|1
+2019-02-05|government|1
+2019-02-05|climate change|1
+2019-01-06|original|1
+2019-01-06|badges|1
+
+.print Question 8-sanad
+Question 8-sanad
+
+select users.uid,questionnum,answernum, count(votes.uid),votesreceived
+from votes,posts,users left join (select users.uid, count(posts.pid) as votesreceived
+from votes,posts,users
+where votes.pid=posts.pid and poster=users.uid
+group by users.uid)as t1 on users.uid=t1.uid left join (select users.uid, count(posts.pid) as answernum
+from answers,posts,users
+where answers.pid=posts.pid and users.uid=posts.poster
+group by users.uid ) as t2 on users.uid=t2.uid left join (select users.uid, count(posts.pid) as questionnum
+from questions, posts,users
+where questions.pid=posts.pid and users.uid=posts.poster
+group by users.uid ) as t3 on users.uid=t3.uid
+where votes.pid=posts.pid and votes.uid=users.uid 
+group by users.uid ;
+u001|6|10|20|37
+u002|3|6|16|19
+u003|1|3|10|9
+u004|3|4|11|13
+u005|3|4|10|7
+u006||2|9|3
+u007||1|7|6
+u008|1||6|
+u009||1|9|
+u010|||8|
+u011|||2|
+u012|||1|
+u014|||1|
+u015|||4|
+u016|2|3|8|28
+
+
+.print Question-9 sanad
+Question-9 sanad
+
+create view QuestionInfo as
+select  posts.pid, posts.poster, questions.theaid,votecnt, anscnt
+from posts as p, questions,answers, 
+posts left join (select posts.pid, count(vno) as voteCnt
+from votes,users,posts
+where posts.pid=votes.pid and poster=users.uid
+group by posts.pid) 
+as t1 on posts.pid=t1.pid left join (select posts.pid, count(answers.pid) as ansCnt
+from posts,questions,answers
+where posts.pid=questions.pid and answers.qid=questions.pid
+group by posts.pid) as t2 on posts.pid=t2.pid
+where  posts.pid=questions.pid  and (answers.pid=questions.theaid or theaid is null) and julianday('now')-julianday(posts.pdate)<=30 
+group by posts.pid;
+
+.print Question 10-sanad
+Question 10-sanad
+
+
+select city,count(users.uid),count(badges.type),voteCnt/count(users.uid),voteCnt
+from QuestionInfo,users,badges,ubadges,votes
+where badges.type='gold' and badges.bname=ubadges.bname
+group by city;
+Calgary|104676|104676||
+Edmonton|104676|104676||
+Mumbai|34892|34892||
+Ottawa|69784|69784||
+Regina|174460|174460||
+Toronto|139568|139568||
+
+
+

@@ -1,0 +1,30 @@
+Name: Sanad Masannat
+ID: 1626221
+CMPUT 274
+Fall 2019
+Exercise 6: Counting Lights
+
+Files included:
+	Makefile
+	README
+	serial_counter.cpp
+Wiring Instructions:
+	Accessories:
+		Wires
+		5 LEDS
+		BreadBoard
+		Controller Board
+		330 Ohm Resistor
+	Wiring Instructions:
+		Set up LEDS in breadboard
+		Set up Pins, resistors and wires as the following:
+			Pin # <-->Longer LED. 
+			Shorter LED<-->Resistor in Negative portion of Breadboard
+			Pass a current and ground it py placing a wire in the 5V and connect it o the positive part in breadboard
+			Place a wire on ground pin and negativ epart of bread board
+
+Running Instruction:
+	Connect Arduino to Computer
+	IN termainal run make upload && serial monitor
+	
+		

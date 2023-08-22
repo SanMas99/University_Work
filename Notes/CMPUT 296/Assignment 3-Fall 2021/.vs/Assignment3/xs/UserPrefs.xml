@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{B9AB7813-E8FD-02B8-5772-AD61751CDDB1}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpaceRepresentation/AStarNode.cs">
+    <Files>
+      <File FileName="Assets/HW3/FSMs/Inky.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game/PelletHandler.cs" />
+      <File FileName="Assets/Scripts/Game/ScoreHandler.cs" />
+      <File FileName="Assets/HW3/FSMs/States/ChaseState.cs" Line="22" Column="113" />
+      <File FileName="Assets/HW3/FSMs/States/PinkyState.cs" Line="31" Column="10" />
+      <File FileName="Assets/Scripts/Agents/Pacmen/GreedyCowardAgent.cs" Line="12" Column="1" />
+      <File FileName="Assets/HW3/FSMs/States/FrightenedState.cs" Line="44" Column="43" />
+      <File FileName="Assets/Scripts/Pathing/NavigationHandler.cs" Line="25" Column="3" />
+      <File FileName="Assets/HW3/FSMs/States/WhimsicalState.cs" Line="26" Column="116" />
+      <File FileName="Assets/Scripts/SpaceRepresentation/AStarNode.cs" Line="23" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2945b0c9-091c-4da9-b2dc-43ab9ea4ad96" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

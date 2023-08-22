@@ -1,0 +1,26 @@
+Name: Sanad Masannat
+ID: 1626221
+CMPUT 274
+
+Exercise 5: Counting Lights
+
+Files included:
+	Makefile
+	README
+	counting.cpp
+Wiring Instructions:
+	Accessories:
+		Wires
+		5 LEDS
+		3 Push Buttons
+		BreadBoard
+		Controller Board
+		330 Ohm Resistor
+	Wiring Instructions:
+		Set up LEDS in breadboard
+		Connect each LED to a resistor,which is grounded, to the shorter end of LED
+		Connect Longer end of LED to the pin
+		Set Up push buttons and connect them to the specific pins while passing a current and grounding it
+		on terminal, run make and then hook up control board then run make upload
+
+		

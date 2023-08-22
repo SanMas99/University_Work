@@ -1,0 +1,23 @@
+Sanad Masannat 1626221
+Weekly Exercise 3: Word Frequency
+Fall 2019 CMPUT 274
+
+Files in ZIP:
+	README
+	freq.py
+
+Running Instruction:
+	Open Virtual Machine
+	Run the Python code by putting: "python3 freq.py textfile"
+
+How the code runs:
+	Argument is passed in code via command line
+	Splits the code into individual words and stores it into variable WordList
+	Once passed in, the word list is sorted
+	Then the for loop will go through all of the elemnts totalling up how many times they appear and store it into a list
+	The line if CurrentWord!=WordList[i] is important as a word will appear multiple times so this will prevent the same word being stored into the frequency table without the need of making a dictionary
+	Table is then sorted and passed into another function to store it into an output file
+	
+Known Issues:
+	Making a dictioanry will make this code more efficient
+	

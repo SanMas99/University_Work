@@ -1,0 +1,29 @@
+-- Fill your name and CCID, and add your answers to each question.
+-- Sanad Masannat (sanad)
+
+-- Add your SQL queries for each question here.
+-- Q1
+select loans.uid, name
+from users, loans
+where retDate is Null and users.uid=loans.uid;
+
+-- Q2
+
+select city, count(city)
+from users
+group by city;
+
+-- Q3
+
+select title, author
+from  books left join (select bid, count(loans.bid) as loancnt
+from loans
+group by loans.bid) as t1 on books.bid=t1.bid
+where  loancnt>3;
+
+-- Q4
+
+select author
+from loans,books
+where loans.bid=books.bid and retDate is not null
+group by author;
