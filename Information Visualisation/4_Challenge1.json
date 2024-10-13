@@ -1,0 +1,44 @@
+{
+
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+  "url": "https://raw.githubusercontent.com/colmr/vis_class/master/London2012Vega.csv",
+  "format": {
+  "type": "csv"
+  }
+},
+"transform": [
+  {
+  "filter": "datum.Age > 0"
+  },
+  {
+  "filter": "datum.Sex == 'M'"
+  },
+],
+"layer": [
+  {
+    "mark": "tick",
+    "encoding": {
+      "x": {
+        "field": "Age", 
+        "type": "quantitative"
+      },
+    "y": 
+        {"field": "Sport",
+        "type": "nominal"
+          }
+      },
+  },
+  {
+      "mark": {"type": "circle", "color": "red", "size": 20},
+      "encoding": {
+        "x": {
+          "field": "Age",
+          "type": "quantitative",
+          "aggregate": "median"
+        },
+        "y": {"field": "Sport", "type": "nominal"}
+      }
+    }
+  ], 
+}
