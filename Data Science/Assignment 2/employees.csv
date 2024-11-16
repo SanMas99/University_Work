@@ -1,0 +1,1366 @@
+employee_id,department,job_level,age,salary,company_years,career_years,hiring_source,education_level,recently_promoted,distance,work_from_home,travel_frequently,leave
+EMP0310,IT,Mid,37,105129.0,10,10.0,Agency,Undergrad Degree,True,3,False,Yes,False
+EMP1273,Finance,Junior,61,31902.0,1,13.0,Direct,Undergrad Degree,True,39,False,No,False
+EMP0391,Sales,Junior,43,29722.0,9,13.0,Referral,,False,14,True,No,False
+EMP1372,Finance,Junior,29,33196.0,1,1.0,Direct,Undergrad Degree,False,9,True,Yes,True
+EMP1208,Finance,Junior,29,32885.0,1,6.0,Agency,Undergrad Degree,False,3,False,Yes,True
+EMP0188,HR,Junior,43,50859.0,17,17.0,Direct Hire,Secondary,False,23,False,No,False
+EMP1138,Sales,Senior,25,121964.0,1,1.0,Agency,MSc,False,13,False,No,True
+EMP1034,IT,Junior,21,51255.0,2,2.0,Agency,PhD,False,103,True,No,True
+EMP0276,Finance,Lead,56,201622.0,10,38.0,Referral,Undergrad Degree,False,18,False,No,False
+EMP1393,HR,Junior,26,48963.0,1,1.0,Direct,Secondary,False,71,False,No,True
+EMP0780,Sales,Junior,46,26233.0,5,11.0,Agency,Undergrad Degree,False,46,,No,False
+EMP0555,Finance,Junior,36,32665.0,7,13.0,Direct,Masters,True,3,False,No,False
+EMP0989,Sales,Junior,34,29299.0,3,4.0,Agency,Undergrad Degree,False,3,,No,False
+EMP0398,Sales,Junior,35,35898.0,9,11.0,Direct Hire,Undergrad Degree,False,4,False,Yes,False
+EMP0847,HR,Junior,53,25182.0,4,12.0,Agency,UG Degree,False,59,False,Yes,False
+EMP1156,Finance,Senior,43,128148.0,1,1.0,Direct,Secondary,True,4,False,Yes,False
+EMP1063,Sales,Junior,42,34478.0,2,10.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1321,IT,Junior,20,29611.0,1,1.0,Direct,Undergrad Degree,False,19,False,No,True
+EMP0808,Sales,Mid,26,60552.0,4,5.0,Agency,Secondary,False,29,False,Yes,False
+EMP0657,IT,Mid,42,84924.0,5,8.0,Direct,Undergrad Degree,True,10,True,No,False
+EMP0386,IT,Junior,34,47625.0,9,9.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0321,IT,Junior,47,55874.0,10,17.0,Direct,Secondary,False,18,True,Yes,False
+EMP1348,Sales,Junior,21,31473.0,1,1.0,Direct,Undergrad Degree,False,9,True,Yes,False
+EMP0106,IT,Lead,52,211703.0,26,26.0,Direct,Undergrad Degree,False,29,False,No,False
+EMP0769,HR,Junior,39,34989.0,5,8.0,Direct,Masters,False,21,True,No,False
+EMP0756,Finance,Junior,29,24761.0,5,8.0,Direct,Undergrad Degree,False,11,False,No,False
+EMP0878,Sales,Junior,42,41860.0,4,9.0,Direct,Masters,False,3,True,No,False
+EMP0713,Sales,Junior,54,37033.0,5,11.0,Direct Hire,UG Degree,False,11,False,Y,False
+EMP1328,HR,Junior,18,11640.0,1,1.0,Direct,Undergrad Degree,True,10,False,N,True
+EMP0518,Sales,Mid,39,70321.0,7,13.0,Direct,PhD,False,6,False,N,False
+EMP1127,IT,Senior,41,154445.0,1,1.0,Agency,Masters,False,3,True,No,False
+EMP1221,IT,Junior,24,31550.0,1,4.0,Direct,Undergrad Degree,False,3,False,N,True
+EMP0244,Sales,Senior,34,160363.0,12,12.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1241,Sales,Junior,18,13060.0,1,1.0,Direct,Masters,False,10,True,Y,True
+EMP0325,IT,Junior,31,59970.0,10,11.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0629,IT,Junior,34,27067.0,6,6.0,Direct,Secondary,False,3,False,No,False
+EMP0123,IT,Mid,47,61292.0,24,27.0,Agency,Secondary,False,7,False,Yes,False
+EMP0460,IT,Junior,45,31497.0,8,10.0,Agency,Undergrad Degree,True,9,True,No,False
+EMP0607,IT,Junior,49,39544.0,6,19.0,Direct,Secondary,False,3,False,No,False
+EMP0257,Sales,Mid,31,62387.0,11,11.0,Direct,Masters,False,4,False,No,False
+EMP0696,Sales,Mid,37,79404.0,5,11.0,Agency,,False,3,False,Yes,False
+EMP0122,Finance,Lead,56,227554.0,24,37.0,Referral,Undergrad Degree,True,14,False,No,False
+EMP1392,Sales,Junior,18,28253.0,1,1.0,Agency,PhD,False,3,True,No,True
+EMP0729,Sales,Junior,43,30395.0,5,11.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1094,HR,Junior,37,29880.0,2,7.0,Agency,Undergrad Degree,False,3,True,Yes,False
+EMP0936,IT,Junior,29,25109.0,3,3.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0862,Sales,Junior,48,58121.0,4,18.0,Agency,Undergrad Degree,False,5,True,No,False
+EMP0359,IT,Mid,37,88955.0,9,9.0,Direct,Secondary,False,3,False,No,False
+EMP0675,Finance,Mid,42,75273.0,5,5.0,Agency,Undergrad Degree,False,6,False,Yes,False
+EMP0283,IT,Senior,58,128242.0,10,29.0,Direct,Undergrad Degree,False,9,True,No,False
+EMP0234,IT,Junior,32,53187.0,13,13.0,Direct,Undergrad Degree,False,94,False,No,True
+EMP0269,Sales,Junior,39,31270.0,11,12.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0153,Finance,Senior,42,159958.0,20,20.0,Direct,Undergrad Degree,True,28,True,Yes,False
+EMP0401,HR,Junior,31,25843.0,9,,Agency,Undergrad Degree,False,9,False,Yes,False
+EMP0520,Sales,Mid,33,69943.0,7,9.0,Direct,Secondary,False,5,True,No,False
+EMP0946,Finance,Junior,39,50028.0,3,21.0,Direct,Secondary,False,3,False,No,False
+EMP1105,Finance,Lead,40,222562.0,1,,Direct,,False,3,False,No,True
+EMP0867,HR,Junior,33,51674.0,4,6.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP1053,Sales,Junior,36,31626.0,2,8.0,Direct,Undergrad Degree,False,11,False,No,False
+EMP0343,Sales,Senior,39,119472.0,9,10.0,Referral,Secondary,False,14,False,Yes,False
+EMP0472,IT,Lead,54,229132.0,7,24.0,Referral,UG Degree,True,45,False,No,False
+EMP0302,IT,Mid,34,63230.0,10,10.0,Direct,Undergrad Degree,False,10,True,No,False
+EMP0288,IT,Senior,35,144603.0,10,10.0,Agency,Undergrad Degree,True,5,True,Yes,False
+EMP0268,HR,Junior,36,51633.0,11,18.0,Agency,Undergrad Degree,False,19,True,Yes,False
+EMP0717,IT,Junior,28,51782.0,5,5.0,Agency,Secondary,False,3,True,No,False
+EMP0132,Finance,Senior,43,153822.0,22,22.0,Direct,Undergrad Degree,False,9,False,No,True
+EMP0797,HR,Senior,45,123563.0,4,19.0,Direct,Undergrad Degree,False,11,True,Yes,True
+EMP0462,HR,Junior,35,34349.0,8,11.0,Direct,PhD,False,14,True,No,False
+EMP0770,Sales,Junior,26,51986.0,5,7.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1445,HR,Junior,20,38231.0,0,1.0,Direct,Masters,False,62,False,No,True
+EMP1325,HR,Junior,37,24839.0,1,2.0,Agency,Undergrad Degree,False,5,True,Yes,True
+EMP0819,HR,Junior,28,42511.0,4,4.0,Direct,Secondary,False,29,False,No,True
+EMP0646,Sales,Senior,54,158882.0,5,21.0,Direct,Secondary,True,28,True,Y,False
+EMP0788,Sales,Lead,44,212421.0,4,21.0,Direct Hire,Masters,False,14,True,No,False
+EMP0609,IT,Junior,37,33447.0,6,6.0,Direct,Secondary,True,6,True,N,False
+EMP1009,Sales,Senior,28,116118.0,2,,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP1126,Sales,Senior,41,127532.0,1,18.0,Direct,Undergrad Degree,False,28,False,No,False
+EMP1021,HR,Mid,30,66221.0,2,9.0,Agency,Undergrad Degree,False,92,False,Yes,True
+EMP0556,Finance,Junior,44,31049.0,7,7.0,Direct,Secondary,False,3,False,No,False
+EMP0813,IT,Mid,39,77018.0,4,14.0,Direct,Undergrad Degree,False,12,True,Yes,False
+EMP0528,Sales,Junior,29,58097.0,7,7.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0265,Sales,Junior,33,58189.0,11,14.0,Direct,Undergrad Degree,False,6,False,No,False
+EMP0779,Sales,Junior,29,44927.0,5,5.0,Referral,Undergrad Degree,False,3,True,No,False
+EMP0380,IT,Mid,39,94708.0,9,12.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP1184,IT,Mid,40,90813.0,1,10.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1213,IT,Junior,37,31835.0,1,1.0,Agency,Undergrad Degree,False,23,True,No,False
+EMP1041,Sales,Junior,22,30557.0,2,2.0,Agency,Masters,False,16,True,No,True
+EMP0909,HR,Mid,38,104406.0,3,11.0,Direct,Secondary,False,9,True,No,False
+EMP0771,IT,Junior,44,32085.0,5,7.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0549,Sales,Junior,41,27597.0,7,11.0,Direct,Undergrad Degree,False,10,False,No,False
+EMP0800,Finance,Mid,54,60763.0,4,4.0,Direct,Secondary,False,95,False,No,True
+EMP1134,Sales,Senior,62,130677.0,1,19.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0572,IT,Mid,35,68706.0,6,,Agency,Undergrad Degree,False,3,False,Yes,False
+EMP0197,HR,Senior,49,137025.0,15,26.0,Direct,Undergrad Degree,False,4,False,No,False
+EMP0397,Finance,Junior,42,41549.0,9,9.0,Direct,Undergrad Degree,False,26,False,Yes,False
+EMP0121,Sales,Lead,44,209907.0,24,24.0,Direct,Undergrad Degree,False,26,False,Yes,False
+EMP0238,Sales,Lead,47,209035.0,12,24.0,Agency,Masters,False,3,True,Yes,False
+EMP1040,HR,Junior,24,59296.0,2,4.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0127,Sales,Lead,45,222859.0,22,26.0,Agency,Undergrad Degree,False,7,True,No,False
+EMP0410,Sales,Senior,51,178778.0,8,22.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0155,Sales,Mid,44,60551.0,20,23.0,Direct,,False,3,False,No,False
+EMP0907,Finance,Mid,51,79548.0,3,21.0,Direct,Undergrad Degree,False,5,False,No,False
+EMP1219,Sales,Junior,34,24487.0,1,1.0,Agency,Undergrad Degree,False,41,False,No,True
+EMP1005,IT,Senior,29,120123.0,2,8.0,Direct,Secondary,False,3,False,No,True
+EMP1382,Sales,Junior,18,14422.0,1,1.0,Direct,Masters,False,3,False,N,True
+EMP0515,Sales,Mid,29,107307.0,7,7.0,Direct,Undergrad Degree,False,10,False,No,False
+EMP0663,Sales,Mid,28,72855.0,5,8.0,Direct,Undergrad Degree,True,13,True,No,True
+EMP0510,Sales,Mid,37,64896.0,7,19.0,Direct,Secondary,False,62,False,Yes,False
+EMP1436,IT,Junior,50,27093.0,0,13.0,Direct,Undergrad Degree,False,20,False,Yes,False
+EMP0339,Sales,Junior,58,57671.0,10,10.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0299,Finance,Mid,29,90785.0,10,11.0,Direct,UG Degree,False,3,False,Yes,True
+EMP0833,IT,Junior,35,27675.0,4,13.0,Direct,PhD,True,44,False,No,True
+EMP0584,IT,Mid,58,84912.0,6,36.0,Agency,Secondary,False,7,False,No,False
+EMP0412,Finance,Senior,44,111314.0,8,8.0,Agency,Undergrad Degree,False,9,False,No,True
+EMP1189,HR,Mid,21,64316.0,1,1.0,Direct,PhD,False,101,True,Yes,True
+EMP0764,Finance,Junior,32,34748.0,5,5.0,Direct,Secondary,False,63,True,Yes,False
+EMP0825,Sales,Junior,27,56288.0,4,5.0,Agency,Undergrad Degree,False,11,False,No,True
+EMP0427,IT,Mid,50,79674.0,8,18.0,Direct,Undergrad Degree,False,16,True,No,False
+EMP1059,Sales,Junior,27,53820.0,2,,Agency,,False,3,False,No,True
+EMP1329,Finance,Junior,38,33099.0,1,8.0,Agency,Undergrad Degree,False,3,True,N,False
+EMP0451,HR,Mid,37,64002.0,8,8.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0580,Sales,Mid,56,68369.0,6,17.0,Agency,Secondary,False,95,False,Yes,False
+EMP1411,HR,Junior,21,46628.0,1,1.0,Direct,PhD,False,3,False,No,True
+EMP0709,HR,Junior,32,57456.0,5,7.0,Direct,Secondary,False,5,False,Yes,False
+EMP0993,IT,Junior,27,23735.0,3,3.0,Agency,Undergrad Degree,False,24,False,No,True
+EMP0136,Finance,Lead,43,234086.0,21,24.0,Direct,Undergrad Degree,True,7,False,Yes,False
+EMP0755,Sales,Junior,26,25186.0,5,8.0,Direct,Undergrad Degree,False,59,False,No,True
+EMP0752,IT,Junior,27,48569.0,5,7.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0728,Sales,Junior,30,40657.0,5,5.0,Referral,Secondary,False,10,False,Yes,False
+EMP1231,Sales,Junior,29,33786.0,1,3.0,Direct,,False,3,False,Yes,True
+EMP0858,Finance,Junior,33,37408.0,4,4.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0811,Finance,Mid,36,100771.0,4,12.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0750,Sales,Junior,29,58679.0,5,6.0,Direct,Undergrad Degree,False,27,False,Yes,False
+EMP1460,HR,Junior,33,24492.0,0,9.0,Direct,Secondary,False,3,False,No,True
+EMP0676,Finance,Mid,45,69024.0,5,10.0,Referral,Undergrad Degree,False,3,True,Yes,False
+EMP0885,IT,Junior,24,30041.0,4,4.0,Direct,Undergrad Degree,False,8,True,No,False
+EMP1215,Finance,Junior,21,33181.0,1,1.0,Direct,Undergrad Degree,True,21,True,No,False
+EMP0844,Sales,Junior,30,25451.0,4,,Agency,Secondary,False,3,False,Yes,False
+EMP0587,HR,Mid,36,66105.0,6,9.0,Direct,Masters,False,9,True,No,False
+EMP0994,IT,Junior,34,30175.0,3,,Direct,Undergrad Degree,False,4,False,No,False
+EMP0350,HR,Senior,55,192828.0,9,36.0,Referral,Masters,False,3,True,Yes,False
+EMP0439,Sales,Mid,44,94970.0,8,8.0,Agency,Masters,False,11,False,Yes,True
+EMP1420,IT,Mid,30,79210.0,0,8.0,Agency,Secondary,True,3,False,No,False
+EMP0740,Sales,Junior,27,24875.0,5,5.0,Agency,Undergrad Degree,False,13,,No,False
+EMP0256,HR,Mid,38,92803.0,11,15.0,Agency,Undergrad Degree,False,18,True,No,False
+EMP0252,Finance,Senior,35,136623.0,11,11.0,Direct,Undergrad Degree,False,7,True,No,False
+EMP0342,IT,Lead,53,209101.0,9,28.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0453,Sales,Mid,34,81086.0,8,9.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1045,Sales,Junior,32,32639.0,2,6.0,Agency,Undergrad Degree,True,3,False,Yes,False
+EMP0870,Finance,Junior,41,43609.0,4,9.0,Referral,Undergrad Degree,False,16,True,No,False
+EMP1157,Sales,Mid,26,85831.0,1,1.0,Direct,Undergrad Degree,False,3,True,Yes,True
+EMP0324,Sales,Junior,31,51409.0,10,10.0,Direct,Secondary,True,3,False,Yes,False
+EMP0131,IT,Senior,49,197535.0,22,24.0,Direct,Secondary,False,22,False,No,False
+EMP0827,HR,Junior,25,49355.0,4,4.0,Direct,Secondary,False,11,True,No,False
+EMP0594,HR,Junior,43,36041.0,6,7.0,Agency,Secondary,False,10,False,No,False
+EMP0416,Sales,Senior,37,120476.0,8,8.0,Agency,Secondary,False,10,False,No,False
+EMP1164,Sales,Mid,30,69254.0,1,1.0,Direct,Undergrad Degree,False,72,False,No,True
+EMP1160,Sales,Mid,39,78427.0,1,11.0,Direct,Undergrad Degree,False,26,False,No,False
+EMP0191,Sales,Senior,39,159782.0,16,18.0,Direct,Masters,False,10,False,No,False
+EMP0987,Sales,Junior,30,46690.0,3,6.0,Direct,Undergrad Degree,False,9,True,Yes,False
+EMP0980,Sales,Junior,34,26582.0,3,5.0,Direct,Masters,False,78,False,No,True
+EMP0366,Finance,Mid,41,94178.0,9,9.0,Agency,Masters,False,84,False,Yes,True
+EMP0626,IT,Junior,39,42368.0,6,,Direct,Undergrad Degree,False,21,True,Yes,False
+EMP0307,IT,Mid,32,65480.0,10,12.0,Referral,Secondary,False,5,False,No,False
+EMP1374,Finance,Junior,35,27368.0,1,1.0,Direct,Secondary,False,8,False,No,False
+EMP0222,Sales,Senior,37,123193.0,13,19.0,Agency,Secondary,False,8,True,No,False
+EMP1227,Sales,Junior,33,44364.0,1,14.0,Direct,Undergrad Degree,False,3,True,No,True
+EMP0202,Finance,Mid,55,91005.0,15,28.0,Direct,Undergrad Degree,True,3,True,Yes,False
+EMP0956,Sales,Junior,43,28010.0,3,11.0,Agency,Secondary,False,3,False,No,True
+EMP0514,Sales,Mid,46,97357.0,7,7.0,Agency,,True,3,False,Yes,False
+EMP0637,Sales,Lead,51,231175.0,5,26.0,Direct,Masters,False,3,False,No,True
+EMP0617,HR,Junior,39,37051.0,6,10.0,Direct,Undergrad Degree,False,4,True,No,False
+EMP0246,Sales,Junior,35,48686.0,12,12.0,Direct,Secondary,False,5,False,N,False
+EMP0905,HR,Mid,38,68401.0,3,9.0,Agency,Undergrad Degree,False,6,True,No,False
+EMP0429,IT,Mid,47,76437.0,8,10.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0935,IT,Junior,37,53937.0,3,5.0,Agency,Secondary,False,3,,No,False
+EMP1274,IT,Junior,31,57669.0,1,1.0,Direct,Undergrad Degree,False,25,False,No,False
+EMP0971,Sales,Junior,29,29946.0,3,3.0,Direct,UG Degree,False,4,False,No,False
+EMP1371,Finance,Junior,23,13671.0,1,1.0,Agency,Undergrad Degree,False,115,False,No,True
+EMP0330,HR,Junior,36,54910.0,10,17.0,Direct,Undergrad Degree,False,11,False,No,False
+EMP1216,HR,Junior,21,29940.0,1,1.0,Direct,Secondary,False,37,False,No,True
+EMP1350,HR,Junior,30,35099.0,1,1.0,Agency,Secondary,False,18,False,No,True
+EMP0247,Sales,Junior,44,42997.0,12,14.0,Direct Hire,Secondary,False,9,True,No,False
+EMP0297,Finance,Mid,30,68200.0,10,12.0,Direct,Secondary,False,27,False,No,True
+EMP0902,Finance,Senior,47,128227.0,3,19.0,Agency,UG Degree,False,96,False,Yes,True
+EMP0282,Sales,Senior,40,142832.0,10,18.0,Direct,Undergrad Degree,False,25,False,No,False
+EMP0489,Sales,Senior,31,141329.0,7,,Agency,Undergrad Degree,False,17,True,Yes,False
+EMP0557,Sales,Junior,35,35689.0,7,11.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP1121,HR,Lead,50,239710.0,1,1.0,Direct,Undergrad Degree,False,18,True,Yes,False
+EMP0891,Finance,Senior,54,153666.0,3,25.0,Agency,Undergrad Degree,False,3,True,Yes,False
+EMP1235,Sales,Junior,18,28718.0,1,1.0,Direct,Undergrad Degree,False,80,False,No,True
+EMP0140,IT,Lead,52,203497.0,20,,Direct,Undergrad Degree,True,105,True,No,False
+EMP1249,Sales,Junior,40,30195.0,1,3.0,Agency,Undergrad Degree,False,17,False,No,True
+EMP1451,Finance,Junior,26,30734.0,-1,7.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0560,Sales,Lead,40,231134.0,6,22.0,Referral,Masters,True,9,False,No,False
+EMP0218,Finance,Junior,37,47986.0,14,17.0,Direct,Undergrad Degree,False,8,True,N,False
+EMP0158,IT,Junior,51,37619.0,20,21.0,Direct,Undergrad Degree,False,28,False,No,False
+EMP0727,HR,Junior,36,53132.0,5,9.0,Direct,Undergrad Degree,False,8,False,No,False
+EMP0505,HR,Mid,51,62548.0,7,7.0,Agency,Masters,False,8,False,Yes,False
+EMP1399,Sales,Junior,25,27048.0,1,1.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP0445,Sales,Mid,41,91350.0,8,11.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0100,Sales,Lead,56,236509.0,34,34.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0724,Sales,Junior,46,38291.0,5,10.0,Direct,PhD,False,18,False,Yes,False
+EMP1011,Finance,Senior,45,117599.0,2,19.0,Direct,Undergrad Degree,True,3,False,No,False
+EMP0774,IT,Junior,44,25431.0,5,7.0,Agency,Undergrad Degree,False,7,True,Yes,False
+EMP0201,IT,Mid,40,74019.0,15,19.0,Direct,Masters,False,3,True,No,False
+EMP1124,IT,Senior,36,172563.0,1,1.0,Agency,Masters,False,50,False,No,True
+EMP0499,IT,Mid,34,61095.0,7,7.0,Direct,Undergrad Degree,True,3,False,Yes,False
+EMP0414,Sales,Senior,27,117968.0,8,8.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP0491,HR,Mid,35,63891.0,7,7.0,Direct,Undergrad Degree,False,21,False,No,False
+EMP1183,Sales,Mid,39,90463.0,1,8.0,Agency,Undergrad Degree,False,3,True,Yes,False
+EMP1199,IT,Mid,27,62223.0,1,1.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0651,HR,Senior,52,152020.0,5,28.0,Direct Hire,Undergrad Degree,True,32,False,Yes,False
+EMP0432,IT,Mid,32,84561.0,8,8.0,Referral,Undergrad Degree,False,7,True,No,False
+EMP0668,HR,Mid,25,69904.0,5,,Direct,Secondary,False,99,True,Yes,True
+EMP0204,HR,Junior,33,58011.0,15,15.0,Direct,Undergrad Degree,False,119,True,No,True
+EMP0570,IT,Mid,33,75206.0,6,6.0,Agency,Undergrad Degree,True,13,False,No,True
+EMP0226,IT,Mid,52,88939.0,13,26.0,Agency,UG Degree,False,3,True,Yes,False
+EMP1014,IT,Senior,52,160832.0,2,17.0,Direct,Masters,False,3,True,Yes,False
+EMP0281,Sales,Senior,56,134109.0,10,21.0,Direct,Secondary,False,17,True,No,False
+EMP0938,Sales,Junior,28,52668.0,3,7.0,Direct,Masters,False,61,False,No,True
+EMP1288,Finance,Junior,18,24815.0,1,1.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP0606,Sales,Junior,39,34717.0,6,6.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0992,Finance,Junior,31,24818.0,3,8.0,Direct Hire,Undergrad Degree,False,7,True,No,False
+EMP1159,IT,Mid,26,60564.0,1,1.0,Direct,Undergrad Degree,True,3,True,No,False
+EMP0322,Sales,Junior,44,49369.0,10,11.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0671,HR,Mid,40,76158.0,5,8.0,Direct,Undergrad Degree,False,21,True,No,False
+EMP1292,Finance,Junior,18,30247.0,1,1.0,Agency,PhD,False,42,False,Yes,True
+EMP0548,IT,Junior,31,29600.0,7,11.0,Direct,Undergrad Degree,False,84,False,No,False
+EMP0137,Sales,Senior,40,128183.0,21,22.0,Agency,Undergrad Degree,False,22,False,No,False
+EMP0171,Finance,Junior,40,25668.0,19,19.0,Direct,Secondary,False,8,False,No,False
+EMP0775,IT,Junior,53,34528.0,5,,Referral,Undergrad Degree,False,8,True,No,False
+EMP1269,HR,Junior,20,28884.0,1,1.0,Direct,Undergrad Degree,False,17,False,No,True
+EMP0978,Sales,Junior,37,30833.0,3,3.0,Referral,Secondary,False,3,False,No,False
+EMP0341,Sales,Junior,36,33371.0,10,,Agency,PhD,False,3,True,No,False
+EMP0672,HR,Mid,46,60106.0,5,7.0,Referral,Secondary,False,20,False,No,False
+EMP0872,IT,Junior,52,31523.0,4,4.0,Direct,Undergrad Degree,False,24,False,No,True
+EMP0179,Sales,Mid,51,75261.0,18,21.0,Direct,Masters,False,3,False,No,False
+EMP0962,Sales,Junior,34,40601.0,3,9.0,Referral,Undergrad Degree,False,5,False,No,False
+EMP0708,Sales,Junior,48,56571.0,5,14.0,Referral,Undergrad Degree,True,14,False,No,False
+EMP0930,HR,Junior,46,33198.0,3,6.0,Agency,Undergrad Degree,False,13,False,No,True
+EMP1144,Finance,Senior,32,127063.0,1,1.0,Agency,Undergrad Degree,False,3,False,No,True
+EMP0289,Finance,Senior,31,110704.0,10,,Direct,Masters,False,5,False,Yes,False
+EMP0291,IT,Senior,53,150707.0,10,18.0,Agency,Secondary,False,8,False,Y,False
+EMP1061,Finance,Junior,33,27312.0,2,2.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0162,Finance,Lead,44,203686.0,19,19.0,Direct,Secondary,False,10,True,No,False
+EMP1306,Sales,Junior,37,26653.0,1,4.0,Referral,Masters,False,8,True,No,False
+EMP1002,Sales,Junior,39,44000.0,3,10.0,Direct,Secondary,True,11,False,N,False
+EMP0942,Finance,Junior,27,29426.0,3,3.0,Agency,,False,6,False,Yes,False
+EMP0199,Sales,Senior,38,125632.0,15,15.0,Direct Hire,Secondary,False,8,True,No,False
+EMP1137,HR,Senior,45,120589.0,1,1.0,Agency,Undergrad Degree,False,84,True,No,True
+EMP1141,Finance,Senior,43,164318.0,1,17.0,Direct,Undergrad Degree,False,26,True,Yes,False
+EMP0682,HR,Mid,28,75580.0,5,8.0,Agency,Undergrad Degree,False,3,False,Yes,False
+EMP1295,IT,Junior,29,18751.0,1,1.0,Agency,Secondary,False,3,False,Yes,False
+EMP1190,IT,Mid,45,65392.0,1,22.0,Direct,Undergrad Degree,False,3,True,Yes,True
+EMP0331,HR,Junior,46,45108.0,10,12.0,Agency,Undergrad Degree,False,8,,No,False
+EMP1023,IT,Mid,35,76902.0,2,6.0,Agency,Secondary,False,8,False,No,False
+EMP1384,Sales,Junior,18,30042.0,1,1.0,Agency,Secondary,False,3,False,Yes,True
+EMP0296,Sales,Mid,36,75024.0,10,12.0,Direct,Secondary,True,15,False,No,False
+EMP1297,HR,Junior,18,33910.0,1,1.0,Direct,Undergrad Degree,False,87,False,No,True
+EMP0952,Sales,Junior,30,37946.0,3,,Agency,Secondary,False,3,True,No,False
+EMP0517,Sales,Mid,32,61934.0,7,10.0,Direct,Undergrad Degree,True,16,False,No,False
+EMP1074,Sales,Junior,26,35876.0,2,3.0,Agency,Undergrad Degree,False,7,False,No,False
+EMP1341,IT,Junior,32,40686.0,1,2.0,Agency,Secondary,False,97,False,Yes,True
+EMP1446,Finance,Junior,26,41770.0,-1,5.0,Direct,Undergrad Degree,False,3,False,Y,True
+EMP0958,IT,Junior,26,38744.0,3,5.0,Referral,Undergrad Degree,False,3,True,No,False
+EMP1122,HR,Lead,40,221576.0,1,1.0,Direct,Secondary,False,3,False,No,True
+EMP0815,Finance,Mid,30,64736.0,4,4.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0984,Sales,Junior,57,50200.0,3,4.0,Direct,Undergrad Degree,False,4,False,No,False
+EMP0688,IT,Mid,34,79144.0,5,11.0,Agency,Undergrad Degree,False,81,True,Yes,False
+EMP0855,Sales,Junior,27,25189.0,4,7.0,Direct,Secondary,False,42,True,No,True
+EMP0684,IT,Mid,32,62699.0,5,7.0,Agency,Undergrad Degree,True,24,False,No,False
+EMP1111,Sales,Lead,37,239642.0,1,1.0,Agency,Undergrad Degree,False,12,True,Yes,True
+EMP0498,Finance,Mid,34,109584.0,7,7.0,Direct,UG Degree,False,8,False,No,False
+EMP0677,Sales,Mid,44,72848.0,5,,Referral,Undergrad Degree,True,14,False,No,False
+EMP1065,Finance,Junior,26,26828.0,2,4.0,Agency,Undergrad Degree,False,85,True,No,False
+EMP0337,IT,Junior,40,28251.0,10,10.0,Direct,Undergrad Degree,False,29,False,No,False
+EMP0145,Finance,Lead,40,213262.0,20,20.0,Agency,Undergrad Degree,False,10,True,No,False
+EMP0689,Finance,Mid,42,68834.0,5,9.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0241,HR,Senior,36,143424.0,12,16.0,Agency,Undergrad Degree,False,7,False,No,False
+EMP0492,HR,Mid,50,84068.0,7,7.0,Direct,Undergrad Degree,False,18,False,No,False
+EMP0215,HR,Mid,35,80116.0,14,15.0,Direct,Secondary,False,3,True,No,False
+EMP0836,Finance,Junior,40,30096.0,4,6.0,Agency,Undergrad Degree,False,7,False,No,False
+EMP0895,Finance,Senior,56,135819.0,3,20.0,Direct,Secondary,True,3,True,No,False
+EMP0786,Sales,Junior,35,51271.0,5,6.0,Direct,Secondary,True,120,True,No,False
+EMP1456,IT,Junior,39,31989.0,0,6.0,Direct,UG Degree,False,3,False,Yes,False
+EMP0278,Sales,Senior,52,116947.0,10,29.0,Direct,Secondary,False,76,,No,True
+EMP1263,Sales,Junior,20,29933.0,1,1.0,Direct,Undergrad Degree,False,41,False,Yes,True
+EMP0536,Finance,Junior,42,52044.0,7,14.0,Direct,,False,12,False,No,False
+EMP0294,IT,Mid,33,83078.0,10,12.0,Direct,Undergrad Degree,False,24,False,No,False
+EMP0113,IT,Lead,53,231805.0,25,33.0,Agency,Secondary,False,3,False,Yes,False
+EMP0438,Finance,Mid,44,65558.0,8,11.0,Direct Hire,Secondary,False,76,True,No,False
+EMP0340,Sales,Junior,31,48281.0,10,13.0,Direct,Secondary,False,5,True,Yes,False
+EMP1000,Sales,Junior,31,50050.0,3,6.0,Referral,Undergrad Degree,False,19,False,No,False
+EMP1188,Sales,Mid,28,71949.0,1,1.0,Referral,Secondary,True,8,False,No,False
+EMP0323,Sales,Junior,46,32055.0,10,17.0,Agency,Undergrad Degree,False,11,False,Yes,True
+EMP0784,HR,Junior,28,56768.0,5,8.0,Direct,Undergrad Degree,False,11,False,No,False
+EMP1252,Sales,Junior,20,29928.0,1,1.0,Agency,PhD,False,112,False,No,True
+EMP1452,IT,Junior,18,17987.0,0,1.0,Direct,UG Degree,False,71,False,No,True
+EMP0781,HR,Junior,33,42015.0,5,5.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0433,HR,Mid,36,106230.0,8,,Direct,Undergrad Degree,False,9,False,No,False
+EMP1432,HR,Junior,29,20028.0,0,1.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0975,Sales,Junior,32,39938.0,3,6.0,Agency,UG Degree,True,5,False,No,False
+EMP1463,Sales,Junior,18,24788.0,0,1.0,Agency,Undergrad Degree,False,28,False,Yes,True
+EMP0382,Finance,Mid,37,61772.0,9,11.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0207,Sales,Junior,36,51567.0,15,15.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0426,Sales,Mid,44,88977.0,8,13.0,Direct,Undergrad Degree,False,10,False,No,True
+EMP0229,Sales,Mid,34,64090.0,13,14.0,Agency,Undergrad Degree,False,8,True,No,False
+EMP0327,Sales,Junior,40,38109.0,10,13.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1202,Sales,Mid,48,65114.0,1,7.0,Direct,Undergrad Degree,False,7,False,Yes,False
+EMP1109,Finance,Lead,55,220628.0,1,1.0,Direct,Secondary,True,3,False,No,False
+EMP0182,IT,Senior,42,129970.0,17,17.0,Direct,Undergrad Degree,False,5,False,No,False
+EMP1253,HR,Junior,23,30045.0,1,1.0,Agency,Secondary,False,24,False,No,True
+EMP0568,HR,Mid,43,66712.0,6,15.0,Referral,Undergrad Degree,False,22,False,No,False
+EMP0944,Sales,Junior,36,28436.0,3,10.0,Agency,Undergrad Degree,False,27,True,No,False
+EMP1154,Finance,Senior,27,123070.0,1,1.0,Agency,Secondary,False,4,False,Y,True
+EMP0315,Sales,Mid,34,65237.0,10,12.0,Referral,Undergrad Degree,False,10,False,Yes,False
+EMP0949,HR,Junior,44,26129.0,3,,Direct,Undergrad Degree,False,21,True,No,False
+EMP0948,HR,Junior,24,32765.0,3,5.0,Referral,Secondary,False,86,False,No,False
+EMP0172,Finance,Lead,42,230260.0,18,18.0,Direct,Secondary,False,14,False,No,False
+EMP0794,Sales,Senior,51,131177.0,4,17.0,Agency,Undergrad Degree,False,10,True,No,False
+EMP0661,Finance,Mid,32,80092.0,5,11.0,Direct,Secondary,False,10,False,No,False
+EMP1151,HR,Senior,45,121838.0,1,13.0,Direct,,False,7,False,Yes,False
+EMP0503,IT,Mid,37,61241.0,7,15.0,Direct,Undergrad Degree,False,8,True,No,False
+EMP1358,IT,Junior,32,32612.0,1,1.0,Agency,Undergrad Degree,True,24,True,Yes,False
+EMP0333,IT,Junior,30,56210.0,10,11.0,Agency,Undergrad Degree,False,7,False,N,True
+EMP1093,IT,Junior,27,51190.0,2,4.0,Referral,Secondary,False,23,True,No,False
+EMP0940,Sales,Junior,30,33129.0,3,4.0,Agency,Undergrad Degree,False,6,False,No,False
+EMP0447,HR,Mid,26,94008.0,8,8.0,Direct,Undergrad Degree,False,27,True,No,True
+EMP1298,Finance,Junior,37,24321.0,1,1.0,Direct,Undergrad Degree,False,4,True,Yes,False
+EMP0777,Finance,Junior,26,51207.0,5,6.0,Referral,Undergrad Degree,False,4,True,Yes,False
+EMP0463,IT,Junior,34,50216.0,8,8.0,Referral,Secondary,False,29,False,Yes,False
+EMP1312,HR,Junior,34,30068.0,1,10.0,Referral,UG Degree,False,3,False,Yes,False
+EMP1004,Sales,Lead,47,221685.0,2,20.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP1361,HR,Junior,33,27078.0,1,1.0,Agency,Masters,False,3,False,No,False
+EMP0616,IT,Junior,37,30723.0,6,9.0,Agency,Undergrad Degree,False,27,True,No,False
+EMP1106,IT,Lead,50,215105.0,1,27.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1193,HR,Mid,30,69565.0,1,8.0,Agency,PhD,False,114,False,No,True
+EMP0982,Sales,Junior,28,43134.0,3,3.0,Direct,Undergrad Degree,False,8,True,Yes,False
+EMP0959,IT,Junior,41,28736.0,3,7.0,Direct,Secondary,False,3,False,Yes,False
+EMP0293,IT,Mid,33,64422.0,10,11.0,Referral,UG Degree,False,24,False,No,False
+EMP0522,HR,Mid,37,105275.0,7,13.0,Direct,Undergrad Degree,False,17,False,No,False
+EMP0553,Finance,Junior,48,55121.0,7,9.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1178,Finance,Mid,22,68508.0,1,1.0,Direct,Undergrad Degree,False,15,False,Yes,True
+EMP0598,Sales,Junior,28,24610.0,6,6.0,Agency,Secondary,False,8,True,No,True
+EMP0116,IT,Senior,59,162841.0,25,37.0,Agency,Undergrad Degree,True,10,False,No,False
+EMP0486,Sales,Senior,28,153768.0,7,7.0,Agency,Undergrad Degree,False,5,False,Yes,False
+EMP0738,HR,Junior,33,57628.0,5,8.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0277,Finance,Lead,51,231345.0,10,27.0,Agency,Secondary,True,4,False,Yes,False
+EMP1322,HR,Junior,26,56896.0,1,1.0,Direct,Secondary,False,28,False,No,False
+EMP0988,Sales,Junior,45,55608.0,3,19.0,Direct,Secondary,False,88,False,No,False
+EMP0799,Finance,Mid,53,67399.0,4,10.0,Agency,Secondary,True,3,True,No,False
+EMP0186,HR,Mid,42,76212.0,17,17.0,Direct,Secondary,False,13,False,No,False
+EMP0899,Finance,Senior,33,113974.0,3,9.0,Agency,Masters,False,7,True,No,False
+EMP0430,Finance,Mid,31,86497.0,8,11.0,Agency,Secondary,False,8,False,Yes,False
+EMP0524,Sales,Mid,29,93774.0,7,7.0,Direct,,False,3,False,No,False
+EMP0910,HR,Mid,38,64978.0,3,10.0,Referral,Undergrad Degree,True,26,False,No,False
+EMP1271,IT,Junior,42,44659.0,1,5.0,Agency,Undergrad Degree,False,9,False,No,False
+EMP0163,Sales,Senior,53,161442.0,19,22.0,Direct,Secondary,False,69,True,No,True
+EMP1275,Finance,Junior,18,32088.0,1,1.0,Agency,Secondary,False,18,False,Yes,True
+EMP1356,Sales,Junior,22,27079.0,1,3.0,Direct,Masters,False,24,False,No,True
+EMP0703,IT,Mid,42,77003.0,5,15.0,Agency,Undergrad Degree,False,3,,No,False
+EMP1032,Finance,Junior,30,58272.0,2,4.0,Direct,Undergrad Degree,False,102,False,No,True
+EMP1380,Sales,Junior,18,24309.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP1155,HR,Senior,55,119352.0,1,1.0,Agency,Secondary,False,68,False,No,True
+EMP0673,HR,Mid,40,70165.0,5,6.0,Direct,Secondary,False,10,True,No,False
+EMP0733,Finance,Junior,28,31548.0,5,5.0,Agency,Undergrad Degree,False,7,False,No,False
+EMP0912,Finance,Mid,30,102519.0,3,3.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0783,Finance,Junior,39,49936.0,5,16.0,Direct,Undergrad Degree,False,98,True,No,False
+EMP0807,Sales,Mid,44,80766.0,4,15.0,Direct,Undergrad Degree,False,8,True,N,True
+EMP1405,Sales,Junior,25,26264.0,1,1.0,Direct,Undergrad Degree,False,100,False,No,True
+EMP1168,Finance,Mid,39,78719.0,1,17.0,Direct Hire,Secondary,True,3,False,No,False
+EMP0138,Finance,Senior,40,162052.0,21,22.0,Direct,Undergrad Degree,False,12,True,No,True
+EMP1198,Sales,Mid,34,75153.0,1,1.0,Direct,Secondary,False,4,False,No,False
+EMP0220,IT,Senior,37,117348.0,13,15.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0812,IT,Mid,61,65627.0,4,22.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1113,IT,Lead,57,240138.0,1,1.0,Direct Hire,Masters,True,3,False,Yes,True
+EMP1385,HR,Junior,29,24857.0,1,1.0,Direct,Undergrad Degree,False,101,False,Yes,True
+EMP0627,Finance,Junior,25,50675.0,6,6.0,Direct,Secondary,False,77,True,Yes,True
+EMP0519,HR,Mid,31,79578.0,7,7.0,Direct,Undergrad Degree,False,10,True,No,False
+EMP0986,HR,Junior,35,52937.0,3,3.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP1139,Sales,Senior,28,117290.0,1,1.0,Direct,Secondary,False,26,False,Yes,True
+EMP1206,IT,Junior,38,37346.0,1,6.0,Referral,Undergrad Degree,False,6,True,No,False
+EMP1337,HR,Junior,26,46609.0,1,1.0,Agency,Undergrad Degree,False,75,True,No,True
+EMP1119,Sales,Lead,45,205489.0,1,20.0,Direct,Undergrad Degree,False,6,True,Yes,False
+EMP0344,IT,Senior,41,146041.0,9,9.0,Direct,PhD,False,29,False,Yes,True
+EMP0443,IT,Mid,48,98457.0,8,12.0,Agency,Undergrad Degree,True,5,False,No,True
+EMP0144,HR,Lead,48,204441.0,20,23.0,Direct,Secondary,True,3,True,Yes,False
+EMP1449,IT,Junior,18,21853.0,0,1.0,Direct,Undergrad Degree,False,5,False,No,True
+EMP1019,Finance,Mid,31,63140.0,2,2.0,Direct,Undergrad Degree,False,16,False,No,False
+EMP0266,IT,Junior,38,30536.0,11,15.0,Referral,Undergrad Degree,False,3,True,No,False
+EMP0221,Sales,Senior,37,134822.0,13,,Direct,Undergrad Degree,False,25,False,No,False
+EMP0151,Finance,Senior,44,117166.0,20,22.0,Agency,Secondary,False,3,True,Yes,False
+EMP0842,IT,Junior,30,27016.0,4,5.0,Agency,Secondary,False,15,True,No,False
+EMP0487,IT,Senior,46,128446.0,7,25.0,Agency,Undergrad Degree,False,20,True,No,False
+EMP1056,Finance,Junior,28,24739.0,2,6.0,Direct,Undergrad Degree,False,9,True,No,False
+EMP0434,Sales,Mid,47,62659.0,8,8.0,Direct,UG Degree,True,3,False,No,False
+EMP0977,IT,Junior,40,45300.0,3,3.0,Direct,MSc,False,6,False,No,False
+EMP1332,Sales,Junior,45,55784.0,1,,Agency,Secondary,False,8,False,Yes,False
+EMP1242,Sales,Junior,24,28298.0,1,1.0,Referral,Undergrad Degree,True,102,True,No,False
+EMP0731,Sales,Junior,28,26501.0,5,5.0,Agency,UG Degree,False,3,False,No,False
+EMP0480,IT,Senior,38,110943.0,7,7.0,Direct,Undergrad Degree,False,15,False,Yes,True
+EMP0379,HR,Mid,35,60715.0,9,13.0,Agency,UG Degree,True,15,True,Yes,False
+EMP0656,HR,Mid,49,62651.0,5,23.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1064,Finance,Junior,37,48253.0,2,3.0,Direct Hire,Secondary,False,65,False,No,False
+EMP0108,IT,Lead,49,202560.0,25,26.0,Direct,Secondary,False,3,True,Yes,False
+EMP0175,IT,Senior,62,123617.0,18,24.0,Referral,PhD,False,80,False,Yes,False
+EMP0240,Sales,Senior,46,157393.0,12,24.0,Agency,Undergrad Degree,False,28,False,No,False
+EMP1457,Sales,Junior,18,21553.0,0,1.0,Agency,Masters,False,22,True,Yes,True
+EMP1352,HR,Junior,22,21728.0,1,1.0,Agency,Undergrad Degree,False,52,True,No,True
+EMP0493,HR,Mid,38,71599.0,7,7.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0953,Finance,Junior,31,36326.0,3,4.0,Referral,Undergrad Degree,False,7,True,No,False
+EMP1039,HR,Junior,40,45305.0,2,5.0,Direct,Undergrad Degree,False,19,False,No,False
+EMP1158,HR,Mid,24,71261.0,1,1.0,Agency,Masters,False,5,False,Yes,True
+EMP1248,HR,Junior,28,30885.0,1,7.0,Direct,Undergrad Degree,False,11,True,No,False
+EMP0465,IT,Junior,38,25001.0,8,15.0,Direct,Secondary,False,3,False,No,False
+EMP1375,Sales,Junior,20,37071.0,1,1.0,Agency,Undergrad Degree,False,25,True,No,False
+EMP1307,HR,Junior,18,26258.0,1,1.0,Direct,PhD,False,3,False,No,True
+EMP0759,Sales,Junior,28,30819.0,5,8.0,Referral,Undergrad Degree,False,5,True,No,False
+EMP0894,HR,Senior,39,114235.0,3,15.0,Agency,Undergrad Degree,True,3,True,No,False
+EMP0373,Sales,Mid,49,61010.0,9,14.0,Agency,UG Degree,False,3,False,No,True
+EMP0741,HR,Junior,26,55420.0,5,8.0,Agency,Undergrad Degree,False,9,False,No,False
+EMP0361,HR,Mid,37,65517.0,9,13.0,Referral,Secondary,True,24,False,No,False
+EMP0932,Sales,Junior,39,46354.0,3,16.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1423,IT,Mid,28,99572.0,0,,Direct,Masters,False,16,True,No,True
+EMP0173,Sales,Lead,42,207474.0,18,18.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0208,Sales,Lead,44,203638.0,14,14.0,Direct,Undergrad Degree,True,15,False,N,False
+EMP1412,Sales,Junior,25,34938.0,1,1.0,Agency,Secondary,False,9,False,No,True
+EMP0507,Sales,Mid,30,64273.0,7,12.0,Agency,PhD,True,9,False,No,True
+EMP1050,Finance,Junior,57,51434.0,2,17.0,Referral,Undergrad Degree,False,78,False,No,False
+EMP1187,IT,Mid,23,107427.0,1,1.0,Direct,Masters,False,24,False,No,True
+EMP0918,Sales,Mid,27,62766.0,3,3.0,Direct,Undergrad Degree,False,16,False,No,True
+EMP1108,IT,Lead,60,210485.0,1,30.0,Agency,Masters,False,21,True,No,False
+EMP0730,Sales,Junior,30,42712.0,5,,Direct,Undergrad Degree,False,104,False,No,True
+EMP1195,IT,Mid,33,79670.0,1,15.0,Agency,Undergrad Degree,False,115,True,Yes,True
+EMP0117,IT,Senior,54,180633.0,25,33.0,Referral,Undergrad Degree,False,3,True,No,False
+EMP0796,Finance,Senior,41,166241.0,4,8.0,Agency,Undergrad Degree,False,10,True,Yes,False
+EMP0850,Sales,Junior,31,29579.0,4,5.0,Direct,Secondary,False,5,False,No,True
+EMP0396,IT,Junior,32,55628.0,9,13.0,Agency,Secondary,False,6,True,No,False
+EMP0422,HR,Mid,32,64450.0,8,11.0,Direct,Secondary,False,27,True,No,False
+EMP1036,Sales,Junior,28,34050.0,2,3.0,Direct,PhD,False,75,False,Yes,True
+EMP0184,Sales,Senior,54,180936.0,17,21.0,Agency,Masters,False,3,False,Yes,False
+EMP1357,IT,Junior,31,15512.0,1,1.0,Agency,Secondary,False,7,True,No,False
+EMP0285,Sales,Senior,32,137477.0,10,10.0,Agency,Secondary,True,10,True,No,False
+EMP0326,Sales,Junior,34,39260.0,10,15.0,Direct,Undergrad Degree,False,8,False,No,False
+EMP1073,Sales,Junior,33,31806.0,2,4.0,Direct,Undergrad Degree,True,13,,Yes,False
+EMP1403,HR,Junior,23,40686.0,1,1.0,Direct,Undergrad Degree,False,3,True,No,True
+EMP1266,IT,Junior,41,41682.0,1,20.0,Direct Hire,Masters,False,3,False,No,False
+EMP1003,IT,Lead,47,228394.0,2,24.0,Agency,Secondary,False,3,False,N,False
+EMP0623,HR,Junior,27,34305.0,6,6.0,Agency,Undergrad Degree,True,25,False,No,False
+EMP1048,HR,Junior,21,46993.0,2,3.0,Agency,PhD,False,53,False,Yes,True
+EMP1177,Sales,Mid,28,72916.0,1,1.0,Direct,UG Degree,False,97,False,N,True
+EMP1013,Finance,Senior,60,191398.0,2,25.0,Direct,Undergrad Degree,True,15,True,No,False
+EMP1132,Sales,Senior,35,120126.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1326,Sales,Junior,40,20250.0,1,1.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0357,HR,Mid,32,99889.0,9,12.0,Direct,Secondary,False,84,True,No,False
+EMP0154,Sales,Senior,45,126651.0,20,20.0,Direct,Undergrad Degree,False,4,False,No,False
+EMP1055,Sales,Junior,27,29455.0,2,7.0,Direct,Undergrad Degree,False,13,False,No,True
+EMP0484,IT,Senior,31,115089.0,7,7.0,Agency,Undergrad Degree,False,8,False,No,False
+EMP0939,HR,Junior,37,47261.0,3,3.0,Direct,UG Degree,False,23,False,N,True
+EMP0370,Finance,Mid,32,70622.0,9,9.0,Direct,Masters,False,28,True,No,False
+EMP0286,HR,Senior,42,142427.0,10,10.0,Direct,Undergrad Degree,False,29,False,Yes,True
+EMP1136,Sales,Senior,51,166288.0,1,1.0,Agency,Secondary,False,22,True,No,False
+EMP1076,HR,Junior,27,54187.0,2,2.0,Referral,Masters,False,3,False,Yes,True
+EMP1276,Finance,Junior,32,30539.0,1,2.0,Direct,UG Degree,True,3,False,Yes,False
+EMP1294,IT,Junior,54,29621.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0701,IT,Mid,34,107057.0,5,9.0,Direct,Masters,False,25,True,No,True
+EMP1029,Sales,Mid,43,61447.0,2,5.0,Agency,Masters,True,7,False,No,False
+EMP1173,Sales,Mid,21,62820.0,1,1.0,Direct,Masters,False,90,False,No,True
+EMP0636,IT,Lead,51,236327.0,5,20.0,Direct,Undergrad Degree,False,11,False,No,False
+EMP1330,HR,Junior,19,36848.0,1,1.0,Direct,PhD,False,4,False,No,True
+EMP0919,IT,Mid,43,77257.0,3,11.0,Direct,Undergrad Degree,True,17,False,Yes,False
+EMP0367,Sales,Mid,49,61216.0,9,11.0,Direct,PhD,False,3,False,Yes,True
+EMP1148,Finance,Senior,33,127114.0,1,1.0,Direct,Undergrad Degree,False,10,False,No,True
+EMP0893,Sales,Senior,44,129966.0,3,19.0,Agency,Undergrad Degree,False,28,False,Yes,True
+EMP0999,IT,Junior,31,27024.0,3,8.0,Agency,Undergrad Degree,True,23,True,Yes,False
+EMP0178,IT,Senior,41,115869.0,18,22.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0413,HR,Senior,37,144570.0,8,8.0,Agency,Undergrad Degree,True,8,False,Yes,False
+EMP0440,IT,Mid,40,65139.0,8,12.0,Agency,,False,6,True,Yes,False
+EMP1360,IT,Junior,46,56778.0,1,9.0,Referral,Undergrad Degree,False,3,True,No,False
+EMP0890,IT,Lead,48,218581.0,3,25.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1096,HR,Junior,30,45132.0,2,,Direct,Undergrad Degree,False,3,True,No,False
+EMP0193,Finance,Mid,37,95316.0,16,17.0,Direct,Secondary,False,5,True,No,False
+EMP0567,Finance,Mid,35,92633.0,6,9.0,Agency,UG Degree,True,3,True,No,False
+EMP0782,HR,Junior,26,38193.0,5,6.0,Direct,Undergrad Degree,False,4,False,Yes,False
+EMP0452,HR,Mid,38,68218.0,8,8.0,Direct,Undergrad Degree,False,104,True,Yes,False
+EMP1152,Sales,Senior,36,157264.0,1,1.0,Agency,Undergrad Degree,False,110,False,No,True
+EMP1035,Finance,Junior,26,46427.0,2,4.0,Direct,Secondary,False,3,,Yes,False
+EMP0823,Sales,Junior,39,28741.0,4,6.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0734,Finance,Junior,47,58079.0,5,8.0,Direct,Undergrad Degree,False,4,True,Yes,False
+EMP0385,Sales,Mid,30,83399.0,9,11.0,Direct,Undergrad Degree,True,3,True,Yes,False
+EMP0760,Sales,Junior,27,23696.0,5,7.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0245,Sales,Mid,38,97918.0,12,12.0,Direct,Undergrad Degree,True,10,True,Yes,False
+EMP0849,Sales,Junior,32,41313.0,4,11.0,Agency,Masters,False,10,False,No,True
+EMP0550,Sales,Junior,44,29053.0,7,7.0,Direct,Undergrad Degree,True,10,False,No,False
+EMP1344,HR,Junior,37,25899.0,1,1.0,Direct,Masters,False,19,False,No,True
+EMP1125,IT,Senior,30,122440.0,1,1.0,Direct,Masters,False,96,False,No,True
+EMP0118,IT,Mid,50,87632.0,25,27.0,Direct,Undergrad Degree,False,8,False,No,False
+EMP1167,Finance,Mid,38,79653.0,1,4.0,Agency,Undergrad Degree,True,3,True,N,False
+EMP0431,HR,Mid,34,76528.0,8,8.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0821,IT,Junior,29,57850.0,4,4.0,Referral,Undergrad Degree,False,18,False,No,True
+EMP0900,IT,Senior,46,116874.0,3,11.0,Agency,Masters,False,29,False,No,False
+EMP1091,IT,Junior,27,27931.0,2,2.0,Direct,Undergrad Degree,False,25,False,No,True
+EMP0898,Sales,Senior,49,192007.0,3,27.0,Direct,Secondary,False,3,False,No,False
+EMP1389,Finance,Junior,23,32913.0,1,1.0,Referral,Undergrad Degree,False,17,True,No,True
+EMP0686,Sales,Mid,31,71406.0,5,5.0,Agency,Undergrad Degree,False,10,True,Yes,False
+EMP0290,Sales,Senior,56,121853.0,10,32.0,Agency,Undergrad Degree,False,7,False,No,True
+EMP0287,HR,Senior,30,120774.0,10,11.0,Direct,Undergrad Degree,False,21,True,No,False
+EMP0809,Finance,Mid,55,84831.0,4,14.0,Referral,Masters,True,24,False,No,False
+EMP1129,HR,Senior,37,152474.0,1,1.0,Agency,Undergrad Degree,False,3,True,Yes,True
+EMP1280,IT,Junior,20,31468.0,1,1.0,Agency,Secondary,False,10,False,No,True
+EMP0768,IT,Junior,56,52262.0,5,,Agency,Undergrad Degree,False,10,False,Yes,False
+EMP0474,Sales,Senior,31,186699.0,7,11.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0554,Sales,Junior,29,57020.0,7,8.0,Referral,Undergrad Degree,True,96,True,No,False
+EMP1438,HR,Junior,18,23399.0,0,,Agency,,False,8,False,N,True
+EMP0263,Finance,Mid,42,66656.0,11,14.0,Direct,Undergrad Degree,True,3,False,No,False
+EMP0866,Sales,Junior,28,31174.0,4,5.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1146,Sales,Senior,43,196392.0,1,18.0,Direct,Masters,False,23,True,No,False
+EMP1417,HR,Senior,46,165123.0,-1,14.0,Direct Hire,Secondary,False,6,False,No,False
+EMP1455,Sales,Junior,23,30634.0,0,1.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0710,Sales,Junior,30,25687.0,5,6.0,Direct,Undergrad Degree,False,16,True,No,False
+EMP0174,HR,Lead,43,241625.0,18,22.0,Referral,Secondary,False,80,True,No,False
+EMP1024,HR,Mid,49,65635.0,2,14.0,Agency,Undergrad Degree,False,7,True,No,False
+EMP0990,Finance,Junior,29,37283.0,3,3.0,Direct,Undergrad Degree,False,17,False,No,False
+EMP0725,Sales,Junior,46,26791.0,5,10.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0353,Finance,Mid,29,88642.0,9,11.0,Direct,Secondary,False,3,True,Yes,False
+EMP0157,Finance,Junior,45,49705.0,20,22.0,Direct,Undergrad Degree,False,6,False,No,False
+EMP1201,IT,Mid,32,93108.0,1,1.0,Direct,Undergrad Degree,False,20,True,No,False
+EMP0101,Finance,Senior,53,171374.0,32,32.0,Direct,Undergrad Degree,False,5,False,No,False
+EMP0835,Sales,Junior,27,28357.0,4,5.0,Direct,Masters,False,17,True,No,True
+EMP0814,Sales,Mid,46,78263.0,4,8.0,Direct,Undergrad Degree,False,10,False,No,False
+EMP0152,Sales,Senior,44,166589.0,20,24.0,Referral,Undergrad Degree,False,26,False,No,False
+EMP1251,Finance,Junior,27,53486.0,1,1.0,Direct,Masters,False,29,False,No,True
+EMP1447,HR,Junior,26,30924.0,0,2.0,Agency,Undergrad Degree,False,10,False,No,True
+EMP1462,Sales,Junior,49,59500.0,0,3.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP1103,IT,Junior,43,24151.0,2,8.0,Agency,Undergrad Degree,False,5,False,N,False
+EMP0690,Sales,Mid,35,74948.0,5,5.0,Agency,Undergrad Degree,False,22,False,Yes,False
+EMP0931,HR,Junior,34,48912.0,3,3.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0669,Finance,Mid,39,78295.0,5,5.0,Agency,Undergrad Degree,False,14,True,Yes,False
+EMP1262,HR,Junior,42,54753.0,1,6.0,Agency,Secondary,False,26,False,No,True
+EMP0128,IT,Lead,43,209703.0,22,23.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1085,HR,Junior,25,28717.0,2,5.0,Direct,Secondary,False,111,False,Yes,True
+EMP0544,IT,Junior,52,58401.0,7,15.0,Direct,Masters,True,14,True,No,False
+EMP1450,IT,Junior,18,21706.0,0,1.0,Direct,Secondary,False,47,False,No,True
+EMP0181,Sales,Senior,39,164641.0,17,17.0,Direct,Secondary,True,10,True,Yes,False
+EMP0951,Finance,Junior,30,39348.0,3,3.0,Direct,Undergrad Degree,False,8,True,No,False
+EMP0176,Sales,Senior,41,165818.0,18,19.0,Direct,Undergrad Degree,True,9,False,No,False
+EMP0824,Sales,Junior,24,34914.0,4,5.0,Agency,Undergrad Degree,False,26,False,Yes,False
+EMP1454,Sales,Junior,46,28256.0,0,4.0,Direct,Secondary,False,17,False,No,False
+EMP0914,IT,Mid,26,71939.0,3,3.0,Agency,Undergrad Degree,True,26,True,Yes,False
+EMP0901,IT,Senior,32,120884.0,3,13.0,Direct,Undergrad Degree,False,70,False,No,True
+EMP0264,Sales,Junior,37,56239.0,11,13.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1133,HR,Senior,39,152333.0,1,1.0,Referral,Masters,False,60,False,No,True
+EMP0111,HR,Lead,54,205886.0,25,36.0,Direct,Undergrad Degree,True,3,False,No,False
+EMP1171,Sales,Mid,24,86430.0,1,1.0,Direct,Secondary,False,23,False,Yes,True
+EMP1338,HR,Junior,24,13146.0,1,4.0,Direct,Secondary,False,9,True,Yes,True
+EMP0394,HR,Junior,42,30721.0,9,18.0,Agency,Undergrad Degree,False,7,True,No,True
+EMP0485,Sales,Senior,45,124027.0,7,27.0,Direct,,False,9,False,Yes,True
+EMP1444,Finance,Junior,41,50976.0,0,6.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0552,Sales,Junior,36,26526.0,7,7.0,Direct,Secondary,False,3,False,No,False
+EMP0319,Sales,Junior,32,43820.0,10,10.0,Referral,Masters,False,3,False,N,False
+EMP1016,Sales,Mid,61,65039.0,2,11.0,Referral,Undergrad Degree,False,16,True,No,False
+EMP1175,HR,Mid,49,60462.0,1,,Direct,,False,3,False,Yes,False
+EMP0338,HR,Junior,32,35010.0,10,10.0,Agency,Undergrad Degree,False,16,True,No,False
+EMP0610,Sales,Junior,35,54107.0,6,7.0,Direct,Undergrad Degree,True,3,False,Yes,False
+EMP0395,Sales,Junior,31,48091.0,9,9.0,Direct,Secondary,False,46,True,No,True
+EMP1090,Sales,Junior,50,51827.0,2,17.0,Direct,PhD,False,6,False,No,False
+EMP0599,Finance,Junior,33,49813.0,6,11.0,Agency,Masters,False,3,True,No,False
+EMP0298,Finance,Mid,45,70294.0,10,17.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0564,IT,Senior,41,131203.0,6,13.0,Referral,Masters,False,25,False,Yes,False
+EMP0466,Sales,Junior,37,49677.0,8,8.0,Agency,Secondary,False,21,True,No,False
+EMP1366,Sales,Junior,18,24602.0,1,1.0,Direct,Undergrad Degree,False,10,False,No,True
+EMP0537,HR,Junior,28,50602.0,7,10.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0262,IT,Mid,36,66535.0,11,12.0,Direct,Secondary,False,3,False,No,False
+EMP0428,IT,Mid,35,80450.0,8,10.0,Direct,Secondary,False,28,False,No,False
+EMP1089,HR,Junior,29,33746.0,2,4.0,Direct,Undergrad Degree,False,15,False,No,True
+EMP1256,Sales,Junior,19,47660.0,1,1.0,Direct,Undergrad Degree,False,75,True,No,True
+EMP0251,Sales,Senior,32,125125.0,11,11.0,Agency,Undergrad Degree,True,9,True,No,False
+EMP0274,Sales,Lead,56,232633.0,10,33.0,Direct Hire,Undergrad Degree,True,26,True,Yes,False
+EMP0477,Sales,Senior,36,144194.0,7,12.0,Direct,Secondary,False,22,False,No,False
+EMP0699,Finance,Mid,60,70194.0,5,9.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0437,Sales,Mid,36,103399.0,8,,Direct,Undergrad Degree,True,13,False,No,False
+EMP1279,IT,Junior,33,32305.0,1,1.0,Direct,Undergrad Degree,False,9,True,No,False
+EMP1179,Sales,Mid,29,64871.0,1,1.0,Direct,,False,87,False,Yes,True
+EMP0662,Sales,Mid,36,73628.0,5,11.0,Direct,Secondary,False,8,True,Yes,False
+EMP0880,Finance,Junior,46,53994.0,4,20.0,Direct,,False,28,False,Yes,True
+EMP0767,Sales,Junior,38,24978.0,5,14.0,Direct,Secondary,False,10,True,Yes,True
+EMP0206,Finance,Junior,38,55732.0,15,20.0,Direct,Masters,True,86,False,Yes,False
+EMP0773,Sales,Junior,33,51908.0,5,9.0,Direct,Secondary,False,13,True,No,False
+EMP1237,Finance,Junior,25,27349.0,1,1.0,Direct,Masters,False,3,False,No,True
+EMP0545,Sales,Junior,31,31575.0,7,7.0,Direct,Undergrad Degree,True,59,False,No,False
+EMP1347,IT,Junior,42,52607.0,1,19.0,Direct,Undergrad Degree,False,26,False,No,False
+EMP0633,Sales,Lead,56,202859.0,5,26.0,Agency,UG Degree,False,26,True,Yes,False
+EMP1069,HR,Junior,29,33585.0,2,5.0,Agency,Undergrad Degree,False,16,True,No,False
+EMP0634,Finance,Lead,52,206773.0,5,30.0,Agency,Undergrad Degree,True,3,True,Yes,False
+EMP0336,Finance,Junior,31,50276.0,10,12.0,Agency,Undergrad Degree,False,10,False,No,True
+EMP0928,HR,Junior,29,25529.0,3,3.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0979,Finance,Junior,37,28029.0,3,5.0,Agency,Undergrad Degree,False,3,True,Yes,False
+EMP0968,HR,Junior,27,35779.0,3,3.0,Direct,Undergrad Degree,False,23,True,No,False
+EMP0400,Sales,Junior,38,32281.0,9,16.0,Direct,Undergrad Degree,False,77,True,No,False
+EMP0129,HR,Senior,49,159103.0,22,26.0,Agency,Undergrad Degree,True,3,True,Yes,False
+EMP1464,Sales,Junior,18,19609.0,0,1.0,Direct,Undergrad Degree,False,3,,No,True
+EMP0704,Sales,Mid,36,72631.0,5,,Direct,Undergrad Degree,False,10,False,No,False
+EMP0423,HR,Mid,35,97428.0,8,8.0,Direct Hire,Undergrad Degree,False,52,True,No,False
+EMP1390,IT,Junior,38,39435.0,1,19.0,Agency,Undergrad Degree,False,24,False,No,True
+EMP0922,Finance,Mid,35,75756.0,3,3.0,Agency,UG Degree,False,8,False,No,False
+EMP1020,HR,Mid,43,86063.0,2,21.0,Direct,UG Degree,False,23,True,Yes,False
+EMP0573,Sales,Mid,36,75353.0,6,8.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0597,HR,Junior,44,57142.0,6,11.0,Direct,Undergrad Degree,True,27,False,Yes,False
+EMP0642,HR,Senior,50,198741.0,5,25.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0388,IT,Junior,46,42903.0,9,12.0,Agency,Secondary,False,23,False,No,False
+EMP1342,Finance,Junior,18,50185.0,1,1.0,Agency,Secondary,False,8,,Yes,True
+EMP1459,Finance,Junior,18,16705.0,0,1.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP0130,Finance,Senior,48,126943.0,22,28.0,Agency,Undergrad Degree,False,4,True,No,False
+EMP1070,IT,Junior,28,30522.0,2,2.0,Direct,Secondary,False,6,True,No,False
+EMP0365,Sales,Mid,35,98279.0,9,10.0,Direct,Undergrad Degree,False,9,False,No,False
+EMP0826,HR,Junior,24,30552.0,4,4.0,Agency,Undergrad Degree,False,65,True,No,False
+EMP1196,Finance,Mid,29,84394.0,1,1.0,Direct,Undergrad Degree,False,7,False,No,False
+EMP0985,HR,Junior,27,28068.0,3,5.0,Agency,Undergrad Degree,False,17,False,No,False
+EMP1281,HR,Junior,23,40772.0,1,1.0,Direct,PhD,False,5,False,No,True
+EMP0831,Sales,Junior,24,29268.0,4,4.0,Direct,Undergrad Degree,False,54,False,Yes,True
+EMP1368,Finance,Junior,21,33469.0,1,1.0,Direct,Undergrad Degree,False,17,False,No,True
+EMP1345,IT,Junior,20,17131.0,1,1.0,Agency,Undergrad Degree,True,3,True,No,False
+EMP1099,Sales,Junior,31,26881.0,2,2.0,Direct,PhD,False,25,True,No,True
+EMP1250,IT,Junior,26,16453.0,1,4.0,Direct,Secondary,False,3,False,No,True
+EMP0897,Sales,Senior,33,117198.0,3,8.0,Agency,Masters,False,23,True,No,True
+EMP0976,HR,Junior,26,30728.0,3,4.0,Direct,Undergrad Degree,False,48,False,No,True
+EMP0795,IT,Senior,50,197251.0,4,28.0,Agency,Undergrad Degree,False,22,False,No,False
+EMP0253,IT,Senior,36,137620.0,11,15.0,Direct,Undergrad Degree,False,5,True,No,False
+EMP1194,HR,Mid,34,76542.0,1,1.0,Direct,Undergrad Degree,False,109,False,No,True
+EMP1153,Finance,Senior,56,124214.0,1,25.0,Direct,UG Degree,False,3,False,No,False
+EMP0655,IT,Senior,35,116854.0,5,8.0,Agency,Secondary,True,5,False,No,False
+EMP0874,Sales,Junior,33,46597.0,4,5.0,Direct,Secondary,False,4,True,No,False
+EMP1026,Sales,Mid,36,70281.0,2,6.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1107,Sales,Lead,56,213885.0,1,1.0,Referral,UG Degree,False,22,False,No,False
+EMP1007,Sales,Senior,50,127489.0,2,16.0,Direct,Masters,False,43,False,No,True
+EMP0105,HR,Lead,52,219640.0,28,,Direct,UG Degree,False,3,False,Yes,False
+EMP0873,Sales,Junior,53,31136.0,4,4.0,Direct,PhD,False,24,True,No,True
+EMP0473,IT,Senior,56,178889.0,7,28.0,Direct,Secondary,False,3,False,No,False
+EMP0924,Finance,Mid,35,86123.0,3,6.0,Referral,Secondary,True,5,False,No,False
+EMP1283,Sales,Junior,29,28460.0,1,3.0,Direct,Secondary,False,12,False,No,True
+EMP0926,Sales,Junior,24,51501.0,3,6.0,Referral,Undergrad Degree,False,99,True,Yes,True
+EMP1319,IT,Junior,35,24505.0,1,1.0,Direct,PhD,False,5,False,No,True
+EMP0846,HR,Junior,28,57808.0,4,6.0,Agency,Undergrad Degree,False,58,False,Yes,True
+EMP0860,HR,Junior,30,56387.0,4,4.0,Referral,Secondary,False,7,True,No,False
+EMP1441,IT,Junior,18,19290.0,-1,1.0,Direct,Masters,False,65,False,No,True
+EMP0488,IT,Senior,57,156181.0,7,34.0,Agency,Secondary,False,6,,No,False
+EMP0375,IT,Mid,36,105213.0,9,12.0,Direct,Secondary,False,18,True,No,False
+EMP0670,Sales,Mid,40,78937.0,5,8.0,Direct,Undergrad Degree,True,9,True,Yes,False
+EMP0415,IT,Senior,53,130063.0,8,19.0,Direct,Undergrad Degree,False,7,False,N,False
+EMP0829,Sales,Junior,35,43894.0,4,4.0,Direct,Masters,False,10,False,Yes,False
+EMP0513,Sales,Mid,34,76412.0,7,7.0,Referral,Secondary,False,8,True,No,False
+EMP1081,IT,Junior,37,24978.0,2,4.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0404,Sales,Lead,51,212660.0,8,30.0,Agency,Undergrad Degree,False,3,False,N,False
+EMP0643,Sales,Senior,54,176215.0,5,30.0,Direct,Undergrad Degree,False,7,False,No,False
+EMP0581,IT,Mid,36,72562.0,6,6.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0411,HR,Senior,32,114825.0,8,9.0,Agency,Secondary,False,38,False,No,True
+EMP1186,Sales,Mid,27,63579.0,1,1.0,Direct,UG Degree,False,3,True,Yes,False
+EMP0745,Finance,Junior,31,24275.0,5,12.0,Direct,Secondary,False,3,False,No,False
+EMP0457,IT,Junior,32,56014.0,8,11.0,Direct,UG Degree,False,9,False,No,False
+EMP0705,HR,Mid,37,60048.0,5,5.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP0970,Finance,Junior,31,55206.0,3,7.0,Direct,Undergrad Degree,True,7,,No,False
+EMP1079,IT,Junior,25,23840.0,2,3.0,Referral,Secondary,False,10,True,Yes,False
+EMP1317,HR,Junior,38,52384.0,1,17.0,Direct,Undergrad Degree,False,10,True,No,False
+EMP0576,Sales,Mid,39,72943.0,6,10.0,Direct,Undergrad Degree,True,10,False,Yes,False
+EMP1315,IT,Junior,28,30319.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0640,IT,Senior,47,124270.0,5,16.0,Referral,Undergrad Degree,False,9,True,No,False
+EMP0746,Finance,Junior,37,26343.0,5,10.0,Agency,Undergrad Degree,False,13,False,Yes,False
+EMP0660,IT,Mid,32,96938.0,5,9.0,Direct,Undergrad Degree,False,5,True,No,False
+EMP0119,Sales,Lead,46,221352.0,24,28.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0409,Sales,Senior,45,126039.0,8,15.0,Direct,Secondary,False,27,False,N,False
+EMP0444,HR,Mid,47,68070.0,8,8.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1088,IT,Junior,23,29759.0,2,3.0,Agency,,False,115,False,No,True
+EMP0329,IT,Junior,31,31775.0,10,10.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0408,IT,Senior,38,116356.0,8,8.0,Direct,Secondary,False,3,True,No,False
+EMP0225,IT,Senior,33,128108.0,13,13.0,Direct,Secondary,False,8,False,No,False
+EMP1314,Sales,Junior,20,33757.0,1,1.0,Direct,PhD,False,53,False,No,True
+EMP0569,IT,Mid,30,77998.0,6,9.0,Referral,Undergrad Degree,False,7,True,No,False
+EMP0532,HR,Junior,40,50757.0,7,20.0,Direct,MSc,False,24,True,Yes,False
+EMP0237,Sales,Junior,40,57031.0,13,21.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1265,Sales,Junior,23,35397.0,1,3.0,Agency,Undergrad Degree,False,22,False,No,True
+EMP0896,IT,Senior,50,178702.0,3,24.0,Agency,Undergrad Degree,True,3,False,Y,False
+EMP0525,HR,Mid,31,79212.0,7,13.0,Direct,PhD,True,29,False,No,False
+EMP1205,Sales,Junior,28,58710.0,1,1.0,Direct,Undergrad Degree,False,7,,No,True
+EMP1043,IT,Junior,28,34691.0,2,5.0,Direct,Undergrad Degree,False,9,False,No,True
+EMP0187,Finance,Mid,48,103877.0,17,23.0,Referral,UG Degree,False,25,True,No,False
+EMP0615,Sales,Junior,39,30326.0,6,10.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1117,IT,Lead,52,227863.0,1,29.0,Referral,Undergrad Degree,False,9,,Yes,False
+EMP0348,Sales,Senior,39,116669.0,9,9.0,Agency,Undergrad Degree,False,23,True,No,False
+EMP0458,Sales,Junior,51,59968.0,8,12.0,Referral,Undergrad Degree,False,8,False,Yes,True
+EMP1022,HR,Mid,39,66118.0,2,,Direct,Undergrad Degree,True,23,False,No,False
+EMP0916,Finance,Mid,42,85110.0,3,12.0,Agency,Undergrad Degree,False,5,True,Yes,False
+EMP0702,Sales,Mid,31,61203.0,5,8.0,Direct,Undergrad Degree,False,19,False,No,True
+EMP1272,Sales,Junior,41,49557.0,1,4.0,Direct,Undergrad Degree,False,100,False,No,True
+EMP0712,Sales,Junior,31,31910.0,5,6.0,Agency,Secondary,False,3,True,No,False
+EMP1443,HR,Junior,21,19766.0,-1,1.0,Direct,Undergrad Degree,False,6,False,Yes,True
+EMP0312,HR,Mid,37,69051.0,10,13.0,Direct,Undergrad Degree,False,82,False,No,False
+EMP1182,Sales,Mid,39,64134.0,1,1.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0592,Sales,Mid,48,85368.0,6,15.0,Agency,Secondary,False,3,True,No,False
+EMP1236,IT,Junior,27,30676.0,1,1.0,Agency,Secondary,False,6,False,No,False
+EMP0435,Sales,Mid,48,104327.0,8,11.0,Direct,UG Degree,False,66,True,No,True
+EMP0618,Sales,Junior,32,27926.0,6,9.0,Direct Hire,Secondary,False,11,False,No,False
+EMP0170,IT,Mid,48,60346.0,19,20.0,Direct,,False,16,False,Yes,False
+EMP0778,HR,Junior,34,47964.0,5,6.0,Direct,Secondary,True,4,True,No,False
+EMP0602,IT,Junior,47,26107.0,6,,Direct,Undergrad Degree,False,24,False,No,False
+EMP1131,Finance,Senior,32,123020.0,1,1.0,Direct,Undergrad Degree,False,12,False,Y,True
+EMP0254,Finance,Senior,42,121475.0,11,15.0,Direct,Secondary,False,20,False,No,False
+EMP0881,Sales,Junior,36,37938.0,4,12.0,Referral,Secondary,False,3,False,No,False
+EMP0148,Sales,Senior,43,122035.0,20,24.0,Direct,Undergrad Degree,False,3,False,N,True
+EMP0309,Finance,Mid,31,104039.0,10,11.0,Direct,Undergrad Degree,False,19,True,Yes,False
+EMP1015,Sales,Mid,49,97044.0,2,13.0,Direct,Undergrad Degree,True,3,False,N,False
+EMP0142,Finance,Lead,46,201716.0,20,23.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0911,HR,Mid,42,76318.0,3,,Agency,Undergrad Degree,False,4,,Yes,False
+EMP1410,Finance,Junior,28,28520.0,1,1.0,Agency,Undergrad Degree,False,3,False,No,True
+EMP0303,IT,Mid,31,96820.0,10,13.0,Referral,Undergrad Degree,True,76,False,No,False
+EMP1442,Sales,Junior,18,33217.0,-1,1.0,Agency,Masters,False,77,True,No,True
+EMP0141,Sales,Lead,40,234155.0,20,20.0,Direct,Secondary,False,3,True,Yes,False
+EMP1071,Sales,Junior,60,26437.0,2,7.0,Direct,Undergrad Degree,True,6,True,No,False
+EMP0650,HR,Senior,47,119897.0,5,10.0,Agency,Secondary,False,4,False,Yes,False
+EMP1240,Finance,Junior,39,35945.0,1,5.0,Agency,Undergrad Degree,False,19,False,No,False
+EMP0913,HR,Mid,46,76199.0,3,,Direct,Undergrad Degree,False,7,False,No,False
+EMP0205,Finance,Junior,38,37672.0,15,15.0,Direct,Secondary,False,83,False,Yes,False
+EMP1376,HR,Junior,35,57210.0,1,8.0,Agency,UG Degree,False,15,False,No,True
+EMP0165,Sales,Senior,41,134028.0,19,22.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1207,Finance,Junior,41,39147.0,1,19.0,Agency,Masters,False,112,False,No,True
+EMP0566,Sales,Mid,37,79208.0,6,9.0,Direct,Undergrad Degree,True,22,True,No,True
+EMP0159,IT,Junior,41,56692.0,20,20.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1075,Finance,Junior,22,32791.0,2,3.0,Direct,UG Degree,False,3,False,No,False
+EMP1214,Sales,Junior,26,51675.0,1,1.0,Agency,Undergrad Degree,False,109,False,No,True
+EMP1430,Sales,Junior,28,52585.0,0,9.0,Agency,Undergrad Degree,False,29,False,No,False
+EMP0983,Sales,Junior,37,32822.0,3,9.0,Referral,Secondary,False,3,False,No,False
+EMP1287,Sales,Junior,28,26767.0,1,1.0,Direct,Secondary,False,14,False,No,False
+EMP1316,Sales,Junior,20,38724.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0541,Sales,Junior,30,49438.0,7,7.0,Direct Hire,Undergrad Degree,True,15,False,No,False
+EMP0664,IT,Mid,40,62026.0,5,13.0,Agency,Masters,False,3,False,Yes,False
+EMP1044,Finance,Junior,25,31019.0,2,3.0,Direct,PhD,False,15,True,Yes,True
+EMP0356,Finance,Mid,38,92501.0,9,10.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0666,IT,Mid,37,107313.0,5,13.0,Direct,Masters,False,3,False,No,False
+EMP0715,Sales,Junior,38,51829.0,5,8.0,Direct,Undergrad Degree,False,9,True,Yes,False
+EMP0852,Finance,Junior,35,49906.0,4,4.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1077,HR,Junior,40,32253.0,2,2.0,Direct,Undergrad Degree,True,10,True,Yes,False
+EMP0467,IT,Junior,47,54977.0,8,8.0,Referral,Undergrad Degree,False,101,True,No,False
+EMP1310,Sales,Junior,23,38619.0,1,1.0,Agency,Masters,False,29,True,No,True
+EMP0243,IT,Senior,33,124073.0,12,12.0,Agency,Undergrad Degree,False,60,False,N,True
+EMP1388,Sales,Junior,26,24768.0,1,1.0,Agency,Undergrad Degree,False,22,False,No,True
+EMP0280,Finance,Senior,42,111851.0,10,13.0,Agency,Undergrad Degree,False,6,False,No,False
+EMP1335,Sales,Junior,30,34843.0,1,2.0,Agency,Masters,False,98,False,No,True
+EMP0228,Sales,Mid,35,62065.0,13,13.0,Agency,UG Degree,True,28,True,No,False
+EMP1359,IT,Junior,30,16996.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0574,Finance,Mid,34,66872.0,6,9.0,Direct,Undergrad Degree,False,16,False,No,False
+EMP0270,Sales,Junior,34,52782.0,11,14.0,Direct,Undergrad Degree,False,34,,No,True
+EMP1027,Finance,Mid,46,73753.0,2,11.0,Agency,Undergrad Degree,True,3,False,Yes,False
+EMP0317,Sales,Junior,30,54846.0,10,12.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0230,Finance,Mid,34,94935.0,13,13.0,Referral,Undergrad Degree,False,6,False,Yes,False
+EMP0603,IT,Junior,28,25491.0,6,7.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0236,HR,Junior,39,55453.0,13,14.0,Agency,Secondary,False,101,True,No,False
+EMP1373,HR,Junior,31,30807.0,1,1.0,Direct,Secondary,False,38,False,No,False
+EMP0892,Sales,Senior,33,197351.0,3,,Direct,Undergrad Degree,True,8,True,Yes,False
+EMP1340,Sales,Junior,29,31837.0,1,1.0,Agency,Secondary,False,3,False,No,False
+EMP0743,Sales,Junior,30,29990.0,5,11.0,Direct,Masters,False,14,False,No,True
+EMP0526,HR,Mid,31,86228.0,7,11.0,Agency,Undergrad Degree,False,15,False,No,False
+EMP1095,IT,Junior,36,46434.0,2,2.0,Agency,PhD,False,98,False,No,False
+EMP1414,HR,Junior,18,16468.0,1,1.0,Direct,Secondary,False,10,,Yes,True
+EMP0169,Sales,Senior,57,163423.0,19,33.0,Agency,Masters,True,23,,Yes,False
+EMP0216,Finance,Mid,39,76155.0,14,14.0,Direct,Secondary,False,3,False,Yes,False
+EMP1230,IT,Junior,22,34336.0,1,2.0,Agency,Undergrad Degree,True,3,False,No,False
+EMP0320,Finance,Junior,52,27325.0,10,11.0,Direct,Undergrad Degree,False,91,False,No,True
+EMP0840,Finance,Junior,36,39811.0,4,4.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0284,Finance,Senior,35,113393.0,10,13.0,Direct,Undergrad Degree,False,3,False,N,False
+EMP1102,Finance,Junior,25,41404.0,2,2.0,Referral,Secondary,False,79,True,Yes,False
+EMP0384,Sales,Mid,37,97370.0,9,9.0,Direct,Secondary,False,16,False,No,False
+EMP0654,Finance,Senior,57,176090.0,5,21.0,Direct,Undergrad Degree,False,8,True,Yes,False
+EMP1225,Finance,Junior,25,31014.0,1,4.0,Direct Hire,Secondary,False,9,False,Yes,False
+EMP1299,Finance,Junior,23,30951.0,1,1.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0402,HR,Junior,50,49812.0,9,17.0,Referral,Secondary,False,3,False,Yes,False
+EMP0961,Sales,Junior,51,57859.0,3,8.0,Referral,Undergrad Degree,True,3,False,No,False
+EMP0306,HR,Mid,44,87172.0,10,13.0,Referral,Undergrad Degree,False,24,True,No,False
+EMP0521,IT,Mid,32,109451.0,7,7.0,Direct,Undergrad Degree,True,7,True,No,False
+EMP1424,Sales,Mid,35,75227.0,0,12.0,Direct,Secondary,False,8,True,No,False
+EMP0405,IT,Senior,47,130350.0,8,13.0,Direct,Undergrad Degree,False,7,True,Yes,False
+EMP1369,Sales,Junior,25,29182.0,1,1.0,Agency,Undergrad Degree,False,3,True,Yes,True
+EMP1001,Finance,Junior,26,36021.0,3,5.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP1197,IT,Mid,25,88554.0,1,1.0,Direct,Undergrad Degree,False,66,True,No,True
+EMP0692,HR,Mid,34,74273.0,5,5.0,Direct,Undergrad Degree,False,9,True,No,False
+EMP1232,IT,Junior,29,17710.0,1,1.0,Direct,Undergrad Degree,False,18,True,Yes,True
+EMP0318,Sales,Junior,38,49426.0,10,,Direct,Undergrad Degree,False,13,True,No,False
+EMP0693,HR,Mid,32,80275.0,5,9.0,Agency,Undergrad Degree,False,12,True,No,False
+EMP0104,Finance,Senior,51,135109.0,29,29.0,Agency,Undergrad Degree,False,20,False,No,False
+EMP0371,Sales,Mid,43,101929.0,9,13.0,Agency,Undergrad Degree,False,9,True,No,False
+EMP0190,HR,Senior,59,196367.0,16,39.0,Direct,Masters,False,3,True,No,False
+EMP1300,IT,Junior,59,38936.0,1,10.0,Direct,Undergrad Degree,False,9,True,No,False
+EMP0996,Sales,Junior,25,38405.0,3,3.0,Agency,Undergrad Degree,False,3,False,No,True
+EMP0542,Sales,Junior,47,59873.0,7,7.0,Direct,Secondary,False,3,False,Yes,False
+EMP0107,Sales,Lead,47,210172.0,25,25.0,Agency,UG Degree,False,3,False,Yes,False
+EMP0436,IT,Mid,46,60677.0,8,14.0,Agency,Masters,True,22,False,Yes,True
+EMP0334,Sales,Junior,46,52325.0,10,13.0,Agency,Masters,False,26,False,Yes,False
+EMP0792,IT,Senior,55,158183.0,4,18.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0279,IT,Senior,48,125455.0,10,24.0,Direct,Secondary,True,3,False,Yes,False
+EMP0612,HR,Junior,29,57891.0,6,9.0,Agency,Undergrad Degree,False,3,False,Yes,False
+EMP0494,Finance,Mid,40,101796.0,7,9.0,Direct,Undergrad Degree,False,6,True,No,False
+EMP1239,Sales,Junior,25,41714.0,1,1.0,Agency,PhD,True,69,False,No,True
+EMP1416,Sales,Lead,46,219788.0,0,22.0,Referral,UG Degree,False,25,False,Yes,False
+EMP1387,IT,Junior,21,31687.0,1,1.0,Direct,Undergrad Degree,False,9,True,No,False
+EMP1228,Sales,Junior,25,28308.0,1,1.0,Direct,,False,21,False,No,False
+EMP1365,HR,Junior,22,41973.0,1,1.0,Direct,PhD,False,3,False,No,True
+EMP1057,Sales,Junior,28,26683.0,2,2.0,Direct,Masters,False,109,False,No,True
+EMP0362,HR,Mid,36,87543.0,9,9.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0628,IT,Junior,37,34687.0,6,7.0,Direct,Secondary,False,3,True,No,False
+EMP0377,HR,Mid,36,62360.0,9,9.0,Agency,Undergrad Degree,False,7,True,No,False
+EMP1052,IT,Junior,44,31157.0,2,9.0,Direct,Secondary,False,3,True,No,False
+EMP0421,HR,Mid,41,74942.0,8,,Agency,Undergrad Degree,False,3,True,Yes,False
+EMP1448,Finance,Junior,43,47692.0,0,5.0,Agency,Undergrad Degree,False,8,False,Yes,False
+EMP0483,Finance,Senior,51,173774.0,7,26.0,Referral,Undergrad Degree,True,3,True,Yes,False
+EMP0195,Sales,Mid,38,63095.0,16,18.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1067,Sales,Junior,26,46577.0,2,4.0,Direct,Masters,False,3,False,Yes,True
+EMP0200,Finance,Senior,50,171108.0,15,28.0,Direct,Undergrad Degree,True,24,True,No,False
+EMP1033,Sales,Junior,27,50646.0,2,2.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1458,Finance,Junior,20,19202.0,0,1.0,Agency,Undergrad Degree,True,3,False,Yes,False
+EMP0126,HR,Lead,50,242323.0,22,27.0,Direct,Undergrad Degree,False,10,False,Yes,False
+EMP0248,Sales,Junior,31,46182.0,12,12.0,Referral,Undergrad Degree,False,3,True,No,False
+EMP1017,Finance,Mid,32,67914.0,2,9.0,Direct,Undergrad Degree,False,110,True,No,True
+EMP0516,HR,Mid,42,103243.0,7,9.0,Agency,Secondary,False,26,False,No,False
+EMP0647,Finance,Senior,38,159965.0,5,15.0,Direct,Masters,False,3,False,No,False
+EMP1308,Sales,Junior,33,33394.0,1,1.0,Direct,Masters,False,36,False,No,True
+EMP0403,Sales,Junior,32,33570.0,9,11.0,Agency,Secondary,False,3,True,No,True
+EMP0166,Sales,Senior,49,162423.0,19,21.0,Direct,Secondary,False,64,True,No,True
+EMP0841,HR,Junior,26,26501.0,4,6.0,Agency,Undergrad Degree,False,12,False,No,True
+EMP0425,Sales,Mid,35,65182.0,8,13.0,Agency,Undergrad Degree,False,29,False,Yes,False
+EMP0608,Finance,Junior,30,39033.0,6,6.0,Agency,Secondary,True,19,False,No,False
+EMP1259,Sales,Junior,31,32951.0,1,1.0,Direct,Undergrad Degree,False,35,False,No,True
+EMP0540,IT,Junior,33,31261.0,7,14.0,Direct,Undergrad Degree,False,5,True,No,False
+EMP1378,Sales,Junior,18,27544.0,1,1.0,Direct,Secondary,False,76,False,No,True
+EMP0563,Sales,Senior,59,126821.0,6,26.0,Direct,PhD,True,5,False,No,False
+EMP1346,HR,Junior,24,43731.0,1,1.0,Agency,Secondary,False,62,False,Yes,True
+EMP0565,IT,Senior,31,117758.0,6,9.0,Direct,Undergrad Degree,False,20,False,No,False
+EMP0941,IT,Junior,35,51088.0,3,3.0,Agency,Undergrad Degree,True,7,False,Yes,False
+EMP0273,IT,Junior,35,27972.0,11,13.0,Direct,Secondary,True,63,,N,False
+EMP1082,Finance,Junior,59,28961.0,2,3.0,Direct,Undergrad Degree,False,23,True,No,False
+EMP1290,Sales,Junior,33,32526.0,1,1.0,Direct,Undergrad Degree,False,16,True,No,True
+EMP0213,IT,Mid,55,96577.0,14,21.0,Agency,Secondary,False,3,False,No,False
+EMP1123,HR,Lead,41,223916.0,1,1.0,Agency,Undergrad Degree,False,4,False,No,False
+EMP0354,Sales,Mid,44,90794.0,9,12.0,Direct,Masters,False,42,False,No,True
+EMP1401,Finance,Junior,37,59034.0,1,1.0,Direct,Masters,False,4,False,Y,False
+EMP0967,IT,Junior,36,43548.0,3,6.0,Direct,Undergrad Degree,True,6,True,Yes,False
+EMP0143,IT,Lead,44,206788.0,20,21.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0103,HR,Lead,49,243617.0,30,30.0,Agency,Masters,False,3,False,Yes,True
+EMP1267,HR,Junior,23,30596.0,1,4.0,Direct,Secondary,True,3,False,No,True
+EMP1245,Sales,Junior,31,30495.0,1,2.0,Direct,MSc,False,9,True,Yes,False
+EMP0135,Finance,Lead,41,243354.0,21,22.0,Referral,Undergrad Degree,True,7,False,Yes,False
+EMP0332,HR,Junior,31,37766.0,10,13.0,Agency,Undergrad Degree,False,59,False,No,False
+EMP0109,HR,Lead,52,221719.0,25,30.0,Direct,Undergrad Degree,False,7,True,No,False
+EMP0147,HR,Lead,47,201187.0,20,20.0,Agency,Undergrad Degree,False,28,False,No,False
+EMP0732,HR,Junior,27,30326.0,5,7.0,Direct,Undergrad Degree,False,14,False,No,True
+EMP1112,HR,Lead,45,237014.0,1,1.0,Referral,Undergrad Degree,True,3,True,Yes,False
+EMP1258,Sales,Junior,29,40488.0,1,1.0,Agency,Masters,False,3,False,No,True
+EMP0456,Sales,Junior,43,50921.0,8,8.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1172,Finance,Mid,37,77230.0,1,1.0,Agency,Undergrad Degree,False,6,False,No,False
+EMP0583,HR,Mid,32,80173.0,6,6.0,Direct,Undergrad Degree,False,20,True,Yes,False
+EMP0448,Finance,Mid,36,62632.0,8,9.0,Direct,Secondary,False,10,False,Yes,False
+EMP0947,IT,Junior,37,58448.0,3,4.0,Referral,Undergrad Degree,False,16,True,No,False
+EMP1233,Sales,Junior,18,12889.0,1,1.0,Direct,Secondary,True,3,False,No,True
+EMP1222,Sales,Junior,23,15401.0,1,4.0,Agency,Masters,False,52,,No,True
+EMP0372,Sales,Mid,39,103667.0,9,11.0,Direct,Secondary,True,9,False,Yes,False
+EMP1114,Sales,Lead,50,233604.0,1,24.0,Referral,Undergrad Degree,True,4,False,N,False
+EMP0659,Sales,Mid,44,61744.0,5,9.0,Agency,Secondary,True,21,True,No,False
+EMP0231,IT,Mid,34,68375.0,13,14.0,Direct,Undergrad Degree,False,7,False,No,False
+EMP0716,Sales,Junior,29,52743.0,5,7.0,Direct,Masters,False,23,False,No,False
+EMP0667,HR,Mid,39,89572.0,5,9.0,Agency,,False,25,False,No,False
+EMP1461,HR,Junior,20,12122.0,0,1.0,Direct,Undergrad Degree,False,5,False,Yes,False
+EMP0538,Sales,Junior,47,40103.0,7,7.0,Direct,Secondary,False,3,True,Yes,False
+EMP1254,IT,Junior,22,31028.0,1,1.0,Direct Hire,Undergrad Degree,False,109,True,Yes,False
+EMP0482,IT,Senior,29,117634.0,7,8.0,Agency,UG Degree,False,20,True,Yes,False
+EMP0490,Finance,Mid,33,63676.0,7,13.0,Agency,Undergrad Degree,False,6,True,Yes,False
+EMP0168,Finance,Senior,42,197643.0,19,24.0,Agency,Secondary,True,3,True,No,False
+EMP0683,Sales,Mid,27,67829.0,5,8.0,Direct,Undergrad Degree,False,13,False,No,True
+EMP0149,HR,Senior,41,141942.0,20,21.0,Direct,Undergrad Degree,False,24,False,No,False
+EMP1012,IT,Senior,54,144265.0,2,29.0,Direct,Secondary,False,8,False,Yes,False
+EMP1396,Sales,Junior,44,57489.0,1,1.0,Referral,Undergrad Degree,True,3,False,Yes,False
+EMP0419,HR,Senior,38,116046.0,8,11.0,Direct,Secondary,False,4,False,Yes,True
+EMP1086,HR,Junior,46,30588.0,2,10.0,Direct,Undergrad Degree,False,89,False,Yes,False
+EMP1383,Sales,Junior,21,45150.0,1,1.0,Direct,Undergrad Degree,False,48,False,Yes,True
+EMP0787,Finance,Junior,39,56828.0,5,11.0,Agency,Secondary,False,9,False,No,False
+EMP0622,Sales,Junior,41,54857.0,6,6.0,Direct,Secondary,False,18,True,Yes,False
+EMP0822,IT,Junior,55,54229.0,4,7.0,Direct Hire,Secondary,False,13,True,No,False
+EMP0227,Sales,Mid,37,73712.0,13,13.0,Agency,Masters,False,5,False,No,False
+EMP1130,Sales,Senior,32,157889.0,1,1.0,Direct,Undergrad Degree,False,76,False,No,True
+EMP1407,Sales,Junior,18,21828.0,1,1.0,Direct,Undergrad Degree,False,9,True,Yes,True
+EMP0877,Sales,Junior,45,50002.0,4,,Agency,Undergrad Degree,False,62,True,No,True
+EMP1400,HR,Junior,26,29399.0,1,4.0,Referral,Masters,False,24,False,No,True
+EMP0114,HR,Lead,48,216862.0,25,29.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP0832,Finance,Junior,35,43807.0,4,4.0,Direct,Secondary,False,3,True,Yes,False
+EMP0314,IT,Mid,47,64860.0,10,22.0,Direct,Undergrad Degree,False,20,False,N,False
+EMP0471,Finance,Junior,41,48994.0,8,14.0,Direct,PhD,True,9,True,Yes,False
+EMP0585,Sales,Mid,35,75505.0,6,11.0,Direct,Secondary,False,53,False,Yes,True
+EMP1223,Sales,Junior,20,49273.0,1,1.0,Agency,Masters,False,3,False,No,True
+EMP1439,Finance,Junior,23,37731.0,0,5.0,Direct,Undergrad Degree,False,62,,Yes,True
+EMP0638,Finance,Lead,55,214476.0,5,19.0,Agency,Undergrad Degree,False,46,False,No,False
+EMP0694,IT,Mid,43,60525.0,5,17.0,Direct,Secondary,False,3,False,Yes,False
+EMP0649,Sales,Senior,57,191603.0,5,30.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0311,Sales,Mid,37,60760.0,10,13.0,Direct,,False,101,True,Yes,False
+EMP0189,HR,Junior,47,27895.0,17,23.0,Agency,Secondary,True,9,False,No,False
+EMP0214,Sales,Mid,47,68446.0,14,14.0,Agency,Undergrad Degree,False,9,True,Yes,False
+EMP0641,IT,Senior,58,111897.0,5,9.0,Direct,Undergrad Degree,False,24,True,No,False
+EMP0530,Sales,Junior,26,28105.0,7,7.0,Direct,Undergrad Degree,True,69,True,No,True
+EMP1286,IT,Junior,32,57158.0,1,12.0,Direct,Masters,False,15,True,No,True
+EMP0210,Finance,Senior,39,165044.0,14,,Direct,Secondary,False,3,True,No,False
+EMP0578,IT,Mid,29,61586.0,6,11.0,Agency,PhD,True,3,True,No,False
+EMP0378,HR,Mid,29,103079.0,9,11.0,Direct,Undergrad Degree,False,8,True,No,False
+EMP0735,Sales,Junior,57,32713.0,5,21.0,Direct,Masters,False,3,True,No,False
+EMP1209,Sales,Junior,37,27658.0,1,1.0,Agency,Undergrad Degree,False,4,True,No,False
+EMP0843,IT,Junior,56,58293.0,4,19.0,Direct,Undergrad Degree,False,20,False,Yes,False
+EMP0446,Finance,Mid,33,66663.0,8,8.0,Agency,Secondary,False,23,False,Yes,False
+EMP0625,Sales,Junior,38,40515.0,6,9.0,Direct,Secondary,False,5,False,No,False
+EMP0888,Finance,Lead,50,215192.0,3,21.0,Agency,Undergrad Degree,False,10,False,No,False
+EMP0648,Finance,Senior,33,137914.0,5,11.0,Agency,Undergrad Degree,False,10,True,Yes,False
+EMP1313,Sales,Junior,38,43304.0,1,2.0,Agency,Secondary,True,18,False,No,False
+EMP0736,HR,Junior,29,31485.0,5,8.0,Agency,Undergrad Degree,False,21,False,No,False
+EMP0258,Sales,Mid,32,97483.0,11,14.0,Agency,Undergrad Degree,True,3,False,No,False
+EMP1419,Sales,Mid,27,78645.0,0,7.0,Agency,Undergrad Degree,False,3,False,No,True
+EMP0593,Finance,Mid,33,84342.0,6,8.0,Agency,,True,11,True,No,False
+EMP0504,Sales,Mid,41,62918.0,7,12.0,Direct,Undergrad Degree,False,44,True,Yes,False
+EMP1334,HR,Junior,18,34276.0,1,1.0,Direct,Undergrad Degree,False,31,False,Yes,True
+EMP0313,IT,Mid,50,91468.0,10,12.0,Direct,Undergrad Degree,False,4,False,No,False
+EMP1161,Sales,Mid,25,69416.0,1,1.0,Direct,Undergrad Degree,False,26,False,Yes,True
+EMP0134,Sales,Lead,43,226519.0,21,21.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0441,Sales,Mid,29,68230.0,8,11.0,Agency,Undergrad Degree,False,16,True,No,False
+EMP1435,IT,Junior,36,37034.0,0,3.0,Agency,,False,82,False,No,False
+EMP0981,HR,Junior,28,54360.0,3,3.0,Agency,Undergrad Degree,True,10,False,No,False
+EMP0851,Sales,Junior,39,37815.0,4,6.0,Direct,Secondary,False,33,True,No,True
+EMP1305,HR,Junior,26,30342.0,1,3.0,Referral,Undergrad Degree,False,12,True,No,True
+EMP0376,IT,Mid,32,74871.0,9,9.0,Direct,Undergrad Degree,False,5,False,Yes,False
+EMP1115,HR,Lead,54,225009.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0479,HR,Senior,31,169779.0,7,12.0,Direct,Masters,False,81,False,No,True
+EMP0963,Sales,Junior,24,39766.0,3,3.0,Agency,Masters,False,3,,No,False
+EMP1006,HR,Senior,25,118459.0,2,4.0,Direct,,False,38,False,Yes,True
+EMP1162,Sales,Mid,28,71408.0,1,1.0,Referral,Undergrad Degree,False,6,False,No,True
+EMP1116,HR,Lead,45,221137.0,1,1.0,Direct,Undergrad Degree,False,5,False,No,False
+EMP0523,Sales,Mid,45,66059.0,7,8.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0718,Sales,Junior,35,24215.0,5,5.0,Referral,Undergrad Degree,False,26,False,No,False
+EMP0571,HR,Mid,27,80188.0,6,8.0,Direct,Undergrad Degree,False,26,False,No,True
+EMP1166,IT,Mid,31,95813.0,1,1.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0806,Finance,Mid,44,74629.0,4,6.0,Agency,Undergrad Degree,False,3,True,No,False
+EMP1110,Finance,Lead,52,229836.0,1,1.0,Direct,,True,3,True,No,False
+EMP0762,Sales,Junior,28,27301.0,5,7.0,Agency,Secondary,False,16,True,No,True
+EMP0255,Finance,Mid,58,73348.0,11,11.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP1429,IT,Junior,33,55010.0,0,3.0,Agency,Masters,True,10,False,No,False
+EMP1142,Sales,Senior,43,161572.0,1,16.0,Direct,Undergrad Degree,False,6,False,Yes,False
+EMP0358,Finance,Mid,37,68660.0,9,9.0,Referral,Undergrad Degree,False,10,False,Yes,False
+EMP0461,Sales,Junior,38,55842.0,8,11.0,Direct,Secondary,True,100,False,No,False
+EMP0508,Sales,Mid,38,86177.0,7,8.0,Direct,Secondary,True,10,True,No,False
+EMP0908,Sales,Mid,31,63556.0,3,7.0,Direct,Undergrad Degree,False,106,False,No,True
+EMP1304,IT,Junior,29,33709.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1285,HR,Junior,35,24687.0,1,3.0,Direct,,False,3,False,No,False
+EMP0355,Sales,Mid,40,63885.0,9,,Referral,Undergrad Degree,False,9,True,Yes,False
+EMP1217,Sales,Junior,38,44915.0,1,14.0,Agency,Undergrad Degree,False,3,False,No,True
+EMP1406,HR,Junior,36,26656.0,1,4.0,Agency,Undergrad Degree,False,10,False,No,False
+EMP1437,Sales,Junior,21,18608.0,0,1.0,Agency,Masters,False,6,True,No,True
+EMP1427,Sales,Mid,28,108068.0,0,1.0,Agency,Masters,False,16,False,No,True
+EMP0758,HR,Junior,33,52124.0,5,6.0,Referral,Undergrad Degree,False,3,False,Yes,False
+EMP0793,HR,Senior,47,116538.0,4,20.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP1031,IT,Junior,40,34872.0,2,2.0,Direct,Undergrad Degree,True,9,False,No,False
+EMP0923,Sales,Mid,26,75023.0,3,8.0,Agency,Undergrad Degree,False,101,False,Yes,False
+EMP0816,Sales,Mid,45,82715.0,4,16.0,Direct,Undergrad Degree,False,8,True,N,True
+EMP0644,HR,Senior,61,160975.0,5,33.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP1301,Finance,Junior,27,34546.0,1,1.0,Referral,Undergrad Degree,False,4,True,Y,False
+EMP1370,Sales,Junior,32,31080.0,1,1.0,Direct Hire,Secondary,False,3,False,Yes,False
+EMP0589,Sales,Mid,44,83773.0,6,13.0,Direct,Undergrad Degree,False,3,True,No,True
+EMP0801,Finance,Mid,31,109574.0,4,10.0,Agency,Secondary,False,29,,No,False
+EMP0527,HR,Mid,40,86098.0,7,10.0,Referral,Secondary,False,3,False,No,False
+EMP1309,Sales,Junior,55,27989.0,1,3.0,Direct,Masters,False,3,False,No,True
+EMP1087,HR,Junior,30,29310.0,2,2.0,Direct,Masters,False,6,False,No,True
+EMP0267,Sales,Junior,38,44800.0,11,11.0,Agency,Secondary,False,3,False,No,False
+EMP0937,Sales,Junior,25,27501.0,3,5.0,Referral,PhD,False,3,False,No,True
+EMP0950,HR,Junior,22,23756.0,3,3.0,Direct,Secondary,False,3,False,No,True
+EMP0390,Sales,Junior,35,55330.0,9,11.0,Direct,,False,23,False,Yes,False
+EMP0635,HR,Lead,54,203692.0,5,32.0,Direct,Masters,False,71,True,Yes,False
+EMP1100,IT,Junior,45,37779.0,2,9.0,Direct,Secondary,False,3,False,No,False
+EMP0558,Sales,Junior,36,49241.0,7,7.0,Direct,Masters,False,96,False,No,True
+EMP0387,Finance,Junior,36,41166.0,9,9.0,Direct,Undergrad Degree,False,28,True,No,False
+EMP1046,HR,Junior,27,26952.0,2,8.0,Referral,Secondary,False,3,False,No,False
+EMP0454,IT,Mid,36,83673.0,8,8.0,Referral,Secondary,False,8,False,No,False
+EMP1415,HR,Junior,28,55560.0,1,1.0,Agency,Secondary,False,55,True,No,True
+EMP1336,Sales,Junior,25,28661.0,1,,Direct,PhD,False,11,False,Yes,True
+EMP1028,IT,Mid,26,102377.0,2,8.0,Direct,Undergrad Degree,False,28,True,No,False
+EMP0588,IT,Mid,29,66560.0,6,9.0,Agency,Secondary,False,10,True,Yes,False
+EMP1120,Finance,Lead,44,237875.0,1,22.0,Agency,Undergrad Degree,False,9,False,No,False
+EMP0424,Sales,Mid,39,100667.0,8,12.0,Direct,Undergrad Degree,False,10,False,No,False
+EMP1049,HR,Junior,21,36962.0,2,2.0,Direct,Masters,False,3,False,N,False
+EMP1333,Sales,Junior,20,29587.0,1,1.0,Direct,PhD,False,21,False,Yes,True
+EMP0838,HR,Junior,32,49899.0,4,9.0,Direct,Undergrad Degree,True,29,True,Yes,False
+EMP0886,IT,Lead,60,228655.0,3,31.0,Referral,Undergrad Degree,False,3,,Yes,False
+EMP0185,IT,Mid,40,102429.0,17,17.0,Direct,UG Degree,False,102,True,Yes,False
+EMP0481,IT,Senior,48,199160.0,7,30.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0678,HR,Mid,40,91484.0,5,12.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP1174,Sales,Mid,34,64840.0,1,10.0,Agency,Secondary,False,68,False,No,True
+EMP0721,IT,Junior,30,44897.0,5,8.0,Agency,Undergrad Degree,False,28,False,No,False
+EMP0600,Sales,Junior,26,47834.0,6,,Referral,Secondary,False,5,False,No,False
+EMP1331,Sales,Junior,24,39771.0,1,1.0,Direct,Undergrad Degree,True,102,False,No,True
+EMP0742,HR,Junior,31,25096.0,5,6.0,Agency,Undergrad Degree,False,15,False,Yes,False
+EMP1320,HR,Junior,18,33949.0,1,1.0,Direct,Undergrad Degree,False,8,False,No,True
+EMP1203,HR,Mid,37,83142.0,1,13.0,Agency,Secondary,True,3,False,No,False
+EMP0497,HR,Mid,39,72446.0,7,7.0,Direct,,False,29,False,Yes,False
+EMP0903,Sales,Senior,47,111426.0,3,17.0,Agency,Undergrad Degree,False,10,False,No,False
+EMP1066,HR,Junior,33,38026.0,2,4.0,Direct,Secondary,False,3,True,No,False
+EMP0242,Sales,Senior,51,166329.0,12,24.0,Agency,Undergrad Degree,False,24,False,No,False
+EMP1397,Sales,Junior,18,32117.0,1,1.0,Agency,Undergrad Degree,False,11,False,No,True
+EMP0685,Sales,Mid,55,68459.0,5,6.0,Direct,Undergrad Degree,False,19,False,Y,False
+EMP1318,IT,Junior,37,29467.0,1,2.0,Direct,Secondary,False,40,True,No,False
+EMP0785,IT,Junior,36,34278.0,5,6.0,Direct,Masters,False,3,True,No,False
+EMP0934,HR,Junior,29,52680.0,3,7.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0275,Finance,Lead,34,212951.0,10,10.0,Agency,Masters,True,17,True,Y,False
+EMP0535,HR,Junior,28,32757.0,7,7.0,Agency,Undergrad Degree,False,3,True,No,True
+EMP0417,HR,Senior,32,117861.0,8,9.0,Direct,Masters,False,16,False,Yes,True
+EMP0751,HR,Junior,41,57739.0,5,8.0,Agency,Secondary,False,14,True,No,False
+EMP0347,HR,Senior,53,164997.0,9,33.0,Direct,Undergrad Degree,False,25,False,Yes,False
+EMP0766,Finance,Junior,45,39383.0,5,9.0,Agency,Undergrad Degree,False,20,False,No,False
+EMP0233,Sales,Junior,35,55617.0,13,13.0,Direct,Undergrad Degree,False,6,False,Yes,False
+EMP1422,Finance,Mid,36,63880.0,-1,8.0,Direct,Undergrad Degree,False,89,False,N,False
+EMP1234,HR,Junior,37,31690.0,1,2.0,Direct,Undergrad Degree,False,7,False,No,False
+EMP0383,IT,Mid,34,71527.0,9,12.0,Direct,Secondary,False,7,False,Yes,False
+EMP1284,IT,Junior,25,28319.0,1,,Direct,Undergrad Degree,False,24,False,No,False
+EMP0791,IT,Lead,56,229871.0,4,22.0,Agency,Secondary,False,5,True,Yes,False
+EMP1058,IT,Junior,23,38670.0,2,3.0,Direct,Undergrad Degree,True,5,False,No,False
+EMP0839,HR,Junior,37,56914.0,4,4.0,Direct,,False,18,False,Yes,False
+EMP0871,Sales,Junior,38,26898.0,4,6.0,Direct,Undergrad Degree,False,9,False,Yes,False
+EMP0146,Finance,Lead,55,213801.0,20,27.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP0611,HR,Junior,34,37548.0,6,6.0,Referral,PhD,False,3,True,No,False
+EMP0868,HR,Junior,28,34134.0,4,6.0,Direct,Secondary,False,17,True,No,False
+EMP0624,IT,Junior,36,30121.0,6,6.0,Direct,Undergrad Degree,False,14,True,No,False
+EMP0726,IT,Junior,25,49819.0,5,5.0,Referral,Undergrad Degree,False,10,True,No,False
+EMP1218,IT,Junior,32,30003.0,1,1.0,Agency,Undergrad Degree,True,107,True,No,False
+EMP0748,Sales,Junior,31,33982.0,5,5.0,Direct,Secondary,True,3,False,No,False
+EMP1051,Finance,Junior,54,49272.0,2,2.0,Direct,Undergrad Degree,False,19,True,Yes,False
+EMP1246,IT,Junior,28,29539.0,1,1.0,Referral,Masters,False,80,False,No,False
+EMP0765,Sales,Junior,37,57514.0,5,6.0,Referral,Undergrad Degree,False,11,False,No,False
+EMP1170,Sales,Mid,30,70945.0,1,5.0,Direct,Secondary,True,33,False,No,True
+EMP0292,Sales,Senior,47,119381.0,10,10.0,Agency,UG Degree,True,3,False,Yes,False
+EMP0614,Sales,Junior,30,29157.0,6,9.0,Direct,Undergrad Degree,False,15,False,Yes,False
+EMP0235,IT,Junior,33,49850.0,13,14.0,Direct,Undergrad Degree,False,7,False,No,False
+EMP0531,Sales,Junior,34,59891.0,7,12.0,Referral,Undergrad Degree,False,3,False,No,False
+EMP0406,Sales,Senior,31,148451.0,8,8.0,Agency,Undergrad Degree,True,3,False,No,False
+EMP1010,Sales,Senior,51,122551.0,2,17.0,Direct,Undergrad Degree,False,24,False,Yes,True
+EMP0102,HR,Senior,57,162533.0,31,,Agency,Secondary,False,8,False,No,False
+EMP1143,Sales,Senior,46,119539.0,1,24.0,Agency,Undergrad Degree,False,79,False,No,False
+EMP0328,Sales,Junior,38,47967.0,10,10.0,Referral,Secondary,True,3,False,No,False
+EMP1421,Sales,Mid,43,64611.0,0,7.0,Referral,Secondary,False,13,False,No,False
+EMP0639,Sales,Lead,49,238014.0,5,28.0,Direct,Undergrad Degree,True,26,False,Yes,False
+EMP1147,IT,Senior,33,114116.0,1,11.0,Direct,Undergrad Degree,False,5,False,No,False
+EMP0920,IT,Mid,35,80597.0,3,8.0,Direct,Secondary,False,4,True,No,False
+EMP1212,Sales,Junior,30,52797.0,1,1.0,Direct,Masters,True,24,False,No,False
+EMP0164,HR,Senior,47,158206.0,19,24.0,Direct,Secondary,False,3,True,No,False
+EMP0478,Finance,Senior,40,115378.0,7,10.0,Agency,Secondary,True,6,True,No,False
+EMP0192,IT,Senior,35,130318.0,16,16.0,Direct,Secondary,False,3,False,No,True
+EMP0966,Sales,Junior,39,51443.0,3,8.0,Agency,Masters,False,16,False,No,False
+EMP0305,Sales,Mid,56,64706.0,10,13.0,Direct,Secondary,False,20,False,No,False
+EMP0374,Sales,Mid,41,107548.0,9,16.0,Direct,Secondary,False,21,False,Yes,True
+EMP0501,HR,Mid,33,69911.0,7,7.0,Agency,Secondary,False,79,True,Yes,False
+EMP1354,Sales,Junior,18,24764.0,1,1.0,Agency,Secondary,False,10,False,Yes,True
+EMP0904,HR,Mid,37,66091.0,3,14.0,Direct,Undergrad Degree,False,16,False,No,False
+EMP1353,Sales,Junior,18,29905.0,1,1.0,Agency,Masters,False,93,False,No,True
+EMP0360,Finance,Mid,33,79102.0,9,9.0,Agency,Secondary,False,5,False,Yes,False
+EMP0658,IT,Mid,30,100492.0,5,5.0,Direct,Undergrad Degree,False,10,True,Yes,False
+EMP0887,Sales,Lead,51,210256.0,3,22.0,Referral,Undergrad Degree,False,28,False,No,False
+EMP0653,Sales,Senior,51,132416.0,5,23.0,Direct,Undergrad Degree,False,7,False,Yes,False
+EMP0261,Sales,Mid,32,88404.0,11,13.0,Direct,Undergrad Degree,False,7,False,Yes,False
+EMP1453,IT,Junior,22,14896.0,0,2.0,Direct,Undergrad Degree,False,15,True,No,False
+EMP1037,Sales,Junior,24,33444.0,2,5.0,Referral,Secondary,False,6,True,No,False
+EMP1098,Sales,Junior,24,57716.0,2,3.0,Direct,Undergrad Degree,False,3,True,No,True
+EMP0933,IT,Junior,27,35969.0,3,4.0,Referral,Secondary,False,3,False,No,True
+EMP0869,Finance,Junior,35,27326.0,4,9.0,Direct,Secondary,False,3,False,No,False
+EMP0972,Sales,Junior,36,47208.0,3,6.0,Referral,Undergrad Degree,False,3,True,No,False
+EMP0706,IT,Mid,37,68759.0,5,6.0,Agency,Secondary,False,18,False,No,False
+EMP0998,HR,Junior,39,48087.0,3,4.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0632,HR,Lead,50,233093.0,5,30.0,Direct,Secondary,False,3,True,Yes,False
+EMP1238,Sales,Junior,29,32801.0,1,1.0,Direct,Undergrad Degree,True,3,False,No,True
+EMP1211,HR,Junior,34,26963.0,1,,Direct,Secondary,True,3,True,Yes,False
+EMP0973,IT,Junior,23,28301.0,3,3.0,Agency,Secondary,True,5,False,No,False
+EMP1426,IT,Mid,43,62590.0,0,13.0,Direct,Undergrad Degree,True,91,False,No,False
+EMP0301,Finance,Mid,37,88422.0,10,11.0,Direct,Undergrad Degree,True,8,,No,False
+EMP1150,Sales,Senior,59,162551.0,1,29.0,Direct,Undergrad Degree,False,29,False,Yes,False
+EMP0196,HR,Junior,47,55579.0,16,22.0,Direct,Undergrad Degree,False,41,False,Yes,False
+EMP0511,Finance,Mid,33,73313.0,7,7.0,Direct,Undergrad Degree,False,92,False,No,True
+EMP1311,Finance,Junior,42,59265.0,1,8.0,Agency,Secondary,False,16,False,No,False
+EMP0407,Sales,Senior,31,142289.0,8,8.0,Direct,Undergrad Degree,False,8,True,No,False
+EMP1404,Sales,Junior,23,28625.0,1,3.0,Direct,Undergrad Degree,False,25,False,No,True
+EMP1220,IT,Junior,31,33098.0,1,1.0,Agency,Undergrad Degree,False,6,False,Yes,False
+EMP1398,Sales,Junior,23,13829.0,1,3.0,Agency,Undergrad Degree,False,55,False,No,True
+EMP0167,Finance,Senior,47,110645.0,19,26.0,Direct,Undergrad Degree,False,6,False,No,False
+EMP1327,Sales,Junior,21,25640.0,1,1.0,Direct,Masters,False,17,False,No,True
+EMP0820,HR,Junior,30,29477.0,4,7.0,Direct,Undergrad Degree,False,7,False,No,False
+EMP0859,IT,Junior,35,26465.0,4,11.0,Direct,Masters,False,7,True,No,True
+EMP0957,HR,Junior,39,27976.0,3,3.0,Direct,Undergrad Degree,False,3,,No,True
+EMP0304,Sales,Mid,47,90945.0,10,12.0,Direct,Masters,False,3,True,No,False
+EMP1060,IT,Junior,50,29886.0,2,17.0,Referral,Undergrad Degree,True,16,False,No,False
+EMP0259,Sales,Mid,36,65005.0,11,11.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0577,Finance,Mid,40,64482.0,6,6.0,Direct,Undergrad Degree,False,7,True,No,False
+EMP0352,HR,Mid,47,70149.0,9,16.0,Direct Hire,Undergrad Degree,False,5,False,No,False
+EMP1054,Finance,Junior,33,48043.0,2,4.0,Direct,Undergrad Degree,True,29,False,No,False
+EMP0502,Sales,Mid,47,71919.0,7,7.0,Direct,Undergrad Degree,False,5,True,No,False
+EMP0399,HR,Junior,42,39892.0,9,12.0,Direct,Undergrad Degree,True,24,True,No,False
+EMP0161,Sales,Lead,41,209945.0,19,20.0,Direct,Masters,False,13,False,Yes,False
+EMP0955,Sales,Junior,35,40533.0,3,7.0,Referral,Undergrad Degree,False,13,True,Yes,False
+EMP1363,Finance,Junior,42,55831.0,1,7.0,Direct,Undergrad Degree,False,12,False,Yes,False
+EMP0723,Sales,Junior,27,33338.0,5,9.0,Direct Hire,Undergrad Degree,False,19,False,No,True
+EMP1062,Sales,Junior,52,47188.0,2,3.0,Direct,Undergrad Degree,False,8,True,No,False
+EMP1042,Sales,Junior,26,45307.0,2,6.0,Agency,Secondary,False,3,True,No,True
+EMP0714,Sales,Junior,51,55448.0,5,5.0,Direct,Undergrad Degree,False,11,True,No,False
+EMP0533,HR,Junior,33,29370.0,7,7.0,Referral,Secondary,False,3,True,Yes,False
+EMP0346,IT,Senior,56,133133.0,9,17.0,Referral,,False,19,False,Yes,False
+EMP0927,Sales,Junior,34,33805.0,3,7.0,Agency,Secondary,False,3,False,Yes,False
+EMP1339,Sales,Junior,37,14946.0,1,1.0,Agency,Secondary,False,3,False,No,False
+EMP0680,HR,Mid,33,60156.0,5,7.0,Direct,,True,8,True,No,False
+EMP0464,Sales,Junior,50,29131.0,8,11.0,Direct,Secondary,False,15,False,No,False
+EMP0500,Sales,Mid,33,72028.0,7,10.0,Agency,Secondary,False,7,True,No,False
+EMP1224,Sales,Junior,18,27839.0,1,1.0,Agency,Undergrad Degree,False,21,False,No,True
+EMP0613,Sales,Junior,35,44231.0,6,6.0,Agency,Secondary,False,3,True,No,False
+EMP0198,IT,Senior,36,123412.0,15,15.0,Direct,,False,9,True,No,False
+EMP0681,Finance,Mid,43,107192.0,5,13.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0219,HR,Senior,44,166376.0,13,20.0,Agency,Undergrad Degree,False,6,True,No,False
+EMP0551,IT,Junior,28,41474.0,7,10.0,Direct,Undergrad Degree,False,7,False,Yes,False
+EMP1018,Finance,Mid,47,96468.0,2,4.0,Direct,Undergrad Degree,False,26,False,Yes,False
+EMP1180,Sales,Mid,22,61463.0,1,1.0,Agency,Masters,False,29,False,No,True
+EMP0722,Sales,Junior,32,46345.0,5,9.0,Agency,Undergrad Degree,False,5,True,No,False
+EMP0459,Sales,Junior,41,49976.0,8,8.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1243,Finance,Junior,32,24905.0,1,1.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1362,Sales,Junior,21,26183.0,1,1.0,Direct,Undergrad Degree,False,53,False,No,True
+EMP0757,IT,Junior,42,33277.0,5,13.0,Direct,Undergrad Degree,True,3,True,No,False
+EMP0223,Finance,Senior,49,149141.0,13,15.0,Direct,Masters,False,3,False,No,False
+EMP0739,Sales,Junior,42,27956.0,5,7.0,Direct,Undergrad Degree,False,9,True,No,False
+EMP0854,IT,Junior,41,27909.0,4,,Direct,Undergrad Degree,False,3,False,No,False
+EMP0543,HR,Junior,54,26957.0,7,14.0,Direct,Undergrad Degree,False,6,False,No,False
+EMP1128,Finance,Senior,40,153864.0,1,1.0,Direct,Undergrad Degree,True,15,True,No,False
+EMP0217,Finance,Mid,43,75727.0,14,15.0,Direct,Undergrad Degree,True,10,False,No,False
+EMP1072,Sales,Junior,28,40998.0,2,7.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0476,Sales,Senior,38,123030.0,7,15.0,Direct,Secondary,False,3,False,No,False
+EMP1104,HR,Junior,41,50380.0,2,10.0,Direct,Undergrad Degree,False,20,False,No,False
+EMP0925,Sales,Mid,42,60409.0,3,6.0,Agency,Undergrad Degree,False,9,False,No,False
+EMP0804,Sales,Mid,30,66215.0,4,4.0,Agency,Masters,False,84,False,No,False
+EMP0469,Finance,Junior,34,56100.0,8,9.0,Referral,Undergrad Degree,False,9,False,No,False
+EMP0707,Finance,Junior,37,49446.0,5,9.0,Direct,UG Degree,False,94,False,No,True
+EMP1343,HR,Junior,34,58691.0,1,1.0,Direct,,False,31,False,Yes,True
+EMP0250,IT,Senior,40,136665.0,11,11.0,Direct,Undergrad Degree,False,15,False,Yes,False
+EMP1247,HR,Junior,23,24796.0,1,1.0,Direct,Secondary,False,48,False,No,True
+EMP0763,IT,Junior,27,35781.0,5,5.0,Agency,Secondary,False,3,False,No,False
+EMP0776,Sales,Junior,26,34426.0,5,5.0,Direct,Undergrad Degree,False,18,False,No,False
+EMP0512,HR,Mid,37,92280.0,7,7.0,Direct,Undergrad Degree,False,16,False,No,False
+EMP0308,Sales,Mid,53,66545.0,10,15.0,Referral,Secondary,False,103,True,Yes,False
+EMP0389,Finance,Junior,30,46264.0,9,9.0,Direct,Undergrad Degree,False,20,False,No,False
+EMP0546,Sales,Junior,41,55323.0,7,7.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0876,IT,Junior,45,28418.0,4,8.0,Agency,Undergrad Degree,False,3,False,No,False
+EMP1118,IT,Lead,44,222800.0,1,22.0,Direct,Undergrad Degree,False,5,True,No,False
+EMP0719,IT,Junior,29,57455.0,5,6.0,Referral,PhD,False,8,False,No,False
+EMP0805,Sales,Mid,35,84337.0,4,4.0,Referral,Undergrad Degree,False,8,True,Yes,False
+EMP0586,Sales,Mid,27,80150.0,6,8.0,Direct,Undergrad Degree,False,26,True,No,True
+EMP0115,Sales,Lead,61,236032.0,25,32.0,Direct,Masters,False,7,True,Yes,False
+EMP0691,Sales,Mid,35,63999.0,5,9.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1277,HR,Junior,37,41850.0,1,9.0,Direct,Undergrad Degree,True,5,True,No,False
+EMP0803,IT,Mid,27,61035.0,4,8.0,Agency,Undergrad Degree,True,3,False,No,False
+EMP1083,IT,Junior,30,29230.0,2,6.0,Agency,Masters,False,6,True,No,True
+EMP1176,HR,Mid,37,84507.0,1,14.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0906,IT,Mid,41,90488.0,3,3.0,Agency,Undergrad Degree,True,3,False,No,False
+EMP0698,Sales,Mid,30,81269.0,5,5.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1169,HR,Mid,36,66099.0,1,1.0,Direct,Undergrad Degree,False,22,True,No,False
+EMP0969,IT,Junior,36,25088.0,3,10.0,Direct,Secondary,False,6,True,No,True
+EMP0856,Finance,Junior,31,44626.0,4,5.0,Direct,Secondary,False,14,False,No,True
+EMP0180,Sales,Mid,42,66101.0,18,18.0,Direct,Undergrad Degree,False,26,False,Yes,False
+EMP0754,Sales,Junior,28,26582.0,5,7.0,Direct,Undergrad Degree,False,6,False,No,False
+EMP0561,Sales,Senior,61,147375.0,6,,Direct,Undergrad Degree,False,3,False,No,False
+EMP0665,IT,Mid,35,84334.0,5,,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0853,Sales,Junior,22,36612.0,4,4.0,Direct,Undergrad Degree,False,3,,No,True
+EMP1355,HR,Junior,27,17000.0,1,,Direct,Masters,False,3,True,No,True
+EMP0915,HR,Mid,59,81136.0,3,12.0,Agency,Undergrad Degree,True,3,True,N,False
+EMP1261,Sales,Junior,25,14608.0,1,1.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1282,Finance,Junior,53,31617.0,1,4.0,Agency,Undergrad Degree,True,3,True,No,False
+EMP0133,Sales,Senior,45,125015.0,22,22.0,Direct,,False,7,False,Yes,False
+EMP1278,HR,Junior,21,45285.0,1,1.0,Agency,Undergrad Degree,False,17,True,No,True
+EMP0455,HR,Junior,38,26635.0,8,10.0,Direct,,False,19,True,No,False
+EMP0575,Sales,Mid,33,77809.0,6,9.0,Agency,Secondary,True,3,True,Yes,False
+EMP1149,Finance,Senior,42,163244.0,1,1.0,Direct,Undergrad Degree,False,3,False,N,False
+EMP0364,Sales,Mid,32,75181.0,9,9.0,Direct,Secondary,False,9,True,No,False
+EMP0271,Sales,Junior,32,54077.0,11,12.0,Direct,Undergrad Degree,True,8,False,No,False
+EMP0889,Sales,Lead,48,224192.0,3,20.0,Referral,Secondary,False,5,False,No,False
+EMP0363,HR,Mid,33,71550.0,9,10.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1025,IT,Mid,52,106999.0,2,13.0,Direct,Undergrad Degree,False,12,True,Yes,False
+EMP0621,HR,Junior,43,55201.0,6,9.0,Agency,Secondary,False,28,False,No,False
+EMP0495,Sales,Mid,42,64581.0,7,7.0,Direct,Undergrad Degree,False,103,False,No,False
+EMP1008,IT,Senior,50,176679.0,2,25.0,Direct,Undergrad Degree,False,4,True,N,False
+EMP0761,Sales,Junior,42,23718.0,5,18.0,Agency,Secondary,False,3,True,Yes,False
+EMP1204,Sales,Junior,22,31319.0,1,1.0,Direct,Undergrad Degree,False,12,True,Yes,True
+EMP0345,Sales,Senior,42,110022.0,9,15.0,Agency,Secondary,False,21,False,No,True
+EMP0848,Sales,Junior,38,35114.0,4,4.0,Direct,Undergrad Degree,False,10,False,No,True
+EMP1229,Finance,Junior,31,27798.0,1,1.0,Direct,Secondary,True,10,False,No,False
+EMP0630,Sales,Lead,52,239573.0,5,25.0,Agency,PhD,False,3,False,No,True
+EMP0857,Finance,Junior,28,51248.0,4,6.0,Direct,Secondary,False,8,False,No,False
+EMP0509,IT,Mid,35,83203.0,7,7.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0125,Sales,Senior,42,161446.0,23,23.0,Agency,Masters,False,9,False,No,True
+EMP1047,HR,Junior,23,54023.0,2,2.0,Direct,Masters,False,3,False,No,True
+EMP0810,Sales,Mid,46,63062.0,4,8.0,Agency,Undergrad Degree,True,3,False,No,False
+EMP0864,Sales,Junior,36,36322.0,4,12.0,Direct,Secondary,False,3,True,No,False
+EMP0211,Sales,Senior,35,124993.0,14,17.0,Direct,PhD,False,3,False,No,True
+EMP1185,HR,Mid,28,98718.0,1,1.0,Direct,PhD,False,115,False,No,True
+EMP0295,Sales,Mid,28,71680.0,10,10.0,Direct,Undergrad Degree,False,76,True,Yes,True
+EMP0837,HR,Junior,31,42546.0,4,10.0,Agency,Secondary,False,71,True,No,True
+EMP0156,Sales,Junior,46,54442.0,20,20.0,Direct,Undergrad Degree,False,29,True,Yes,False
+EMP0830,Sales,Junior,26,29357.0,4,7.0,Agency,Secondary,False,43,True,No,True
+EMP1165,Sales,Mid,39,68206.0,1,14.0,Direct,Undergrad Degree,False,18,False,No,False
+EMP1078,Sales,Junior,54,30480.0,2,19.0,Direct,Undergrad Degree,False,6,True,No,False
+EMP0695,HR,Mid,39,74630.0,5,5.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP1191,IT,Mid,20,62149.0,1,1.0,Direct,Secondary,False,29,True,No,True
+EMP1425,Sales,Mid,30,85592.0,0,7.0,Agency,Masters,False,3,False,No,True
+EMP0150,Finance,Senior,47,167083.0,20,23.0,Referral,Undergrad Degree,False,20,False,No,False
+EMP0749,Finance,Junior,34,34788.0,5,5.0,Referral,Secondary,False,7,True,Yes,False
+EMP0506,IT,Mid,27,64891.0,7,7.0,Direct,Undergrad Degree,True,3,False,Yes,False
+EMP0209,Finance,Senior,51,157519.0,14,20.0,Direct Hire,Masters,False,17,True,No,False
+EMP0449,Sales,Mid,56,74599.0,8,17.0,Direct,Undergrad Degree,False,18,False,No,False
+EMP0964,Sales,Junior,24,43413.0,3,6.0,Direct,Secondary,False,3,False,No,True
+EMP0798,Finance,Mid,43,65844.0,4,6.0,Direct,Undergrad Degree,False,118,True,Yes,False
+EMP0368,Finance,Mid,41,74133.0,9,9.0,Direct,Undergrad Degree,False,11,True,No,False
+EMP1394,IT,Junior,18,27806.0,1,1.0,Direct,Secondary,False,3,False,Yes,True
+EMP1268,HR,Junior,44,28195.0,1,21.0,Direct,Undergrad Degree,False,7,,No,False
+EMP0817,Sales,Mid,38,61986.0,4,6.0,Direct,Undergrad Degree,False,14,False,No,True
+EMP0260,Sales,Mid,61,62882.0,11,12.0,Referral,Undergrad Degree,False,7,False,Yes,False
+EMP1192,HR,Mid,24,93995.0,1,1.0,Direct,Undergrad Degree,False,14,False,No,True
+EMP1068,HR,Junior,54,37662.0,2,7.0,Direct,Masters,False,3,False,N,False
+EMP0604,IT,Junior,39,49408.0,6,6.0,Agency,,True,7,False,No,False
+EMP0596,Sales,Junior,43,59766.0,6,11.0,Direct,Secondary,False,75,False,Yes,False
+EMP0595,IT,Junior,46,41253.0,6,12.0,Direct,Secondary,False,29,True,No,False
+EMP1140,IT,Senior,29,113964.0,1,11.0,Direct,Undergrad Degree,False,20,True,No,True
+EMP1409,HR,Junior,20,19307.0,1,1.0,Direct,Secondary,True,49,True,No,True
+EMP0818,IT,Junior,30,56066.0,4,5.0,Referral,Undergrad Degree,True,3,True,No,False
+EMP1244,HR,Junior,53,28685.0,1,8.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP0468,Finance,Junior,39,48830.0,8,9.0,Direct,Undergrad Degree,True,61,True,No,False
+EMP0160,Finance,Lead,41,205150.0,19,19.0,Referral,Undergrad Degree,False,6,False,Yes,False
+EMP0559,Sales,Junior,26,27004.0,7,7.0,Agency,Masters,False,3,False,No,True
+EMP1181,Sales,Mid,23,90044.0,1,1.0,Direct,Undergrad Degree,False,27,False,Yes,True
+EMP1413,Sales,Junior,30,32507.0,1,1.0,Direct,Undergrad Degree,False,25,False,No,True
+EMP0496,Sales,Mid,56,85336.0,7,12.0,Agency,Undergrad Degree,False,7,True,Yes,False
+EMP1291,Sales,Junior,20,18259.0,1,1.0,Direct,Secondary,False,22,False,No,True
+EMP0884,Finance,Junior,31,32280.0,4,4.0,Agency,Undergrad Degree,True,18,True,No,False
+EMP0720,IT,Junior,29,24506.0,5,5.0,Referral,UG Degree,False,9,False,Yes,False
+EMP0943,Sales,Junior,37,29627.0,3,5.0,Agency,Undergrad Degree,False,13,False,No,False
+EMP0418,Sales,Senior,37,124888.0,8,19.0,Direct,Undergrad Degree,False,7,False,No,False
+EMP0883,Finance,Junior,37,23542.0,4,12.0,Agency,Secondary,False,7,False,No,False
+EMP1379,IT,Junior,33,34904.0,1,1.0,Direct,Undergrad Degree,False,3,False,Y,False
+EMP1255,IT,Junior,24,29616.0,1,1.0,Direct Hire,UG Degree,False,17,False,No,True
+EMP0790,Finance,Lead,51,213028.0,4,27.0,Direct,Secondary,False,3,False,Yes,False
+EMP1030,Sales,Junior,33,29502.0,2,7.0,Direct,Secondary,False,93,False,No,True
+EMP0917,Sales,Mid,30,83919.0,3,10.0,Direct,Undergrad Degree,False,20,True,Yes,False
+EMP0534,IT,Junior,41,33684.0,7,13.0,Agency,Undergrad Degree,False,19,True,No,False
+EMP0991,Sales,Junior,35,45071.0,3,4.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1135,HR,Senior,51,117760.0,1,1.0,Direct,PhD,False,3,True,Yes,True
+EMP0110,Finance,Lead,53,231071.0,25,30.0,Direct,UG Degree,False,9,True,Yes,False
+EMP0475,Finance,Senior,33,129300.0,7,,Agency,Secondary,False,3,False,Yes,False
+EMP0316,Sales,Junior,35,54139.0,10,10.0,Direct,Undergrad Degree,False,25,False,Yes,False
+EMP0300,Sales,Mid,52,67237.0,10,11.0,Direct,Undergrad Degree,False,21,True,No,False
+EMP1367,HR,Junior,26,12830.0,1,1.0,Agency,PhD,False,9,False,No,True
+EMP0272,IT,Junior,31,51476.0,11,13.0,Direct,Secondary,False,3,,No,False
+EMP1200,IT,Mid,23,86487.0,1,1.0,Direct,Undergrad Degree,False,68,False,No,True
+EMP0351,IT,Senior,32,122572.0,9,11.0,Agency,Undergrad Degree,False,68,True,No,False
+EMP0711,IT,Junior,44,53424.0,5,9.0,Referral,Undergrad Degree,False,93,False,No,False
+EMP0591,IT,Mid,47,78058.0,6,10.0,Direct,PhD,False,3,False,No,True
+EMP0631,HR,Lead,57,244622.0,5,30.0,Agency,Undergrad Degree,False,4,True,Yes,False
+EMP0921,IT,Mid,37,97067.0,3,11.0,Direct,Undergrad Degree,False,5,True,No,False
+EMP0420,Finance,Mid,48,67207.0,8,13.0,Direct Hire,Secondary,False,14,False,No,False
+EMP0882,HR,Junior,29,59487.0,4,6.0,Direct,Undergrad Degree,False,5,False,No,False
+EMP0679,Sales,Mid,41,73937.0,5,8.0,Agency,Undergrad Degree,False,121,False,No,True
+EMP1391,IT,Junior,55,43508.0,1,19.0,Direct,Undergrad Degree,False,8,True,N,False
+EMP0974,Sales,Junior,27,32949.0,3,3.0,Agency,Undergrad Degree,False,3,False,Yes,True
+EMP0249,Sales,Senior,30,123685.0,11,11.0,Direct,Secondary,False,4,False,No,True
+EMP1260,Sales,Junior,28,29464.0,1,1.0,Direct,Undergrad Degree,False,76,False,Yes,True
+EMP1080,HR,Junior,35,31085.0,2,6.0,Direct,Undergrad Degree,False,19,False,No,False
+EMP0212,HR,Senior,55,185435.0,14,,Agency,Undergrad Degree,False,11,False,No,False
+EMP0224,Sales,Senior,34,126864.0,13,13.0,Direct,UG Degree,False,3,False,No,False
+EMP1433,Finance,Junior,18,20735.0,0,1.0,Agency,Secondary,False,85,False,Yes,True
+EMP0349,IT,Senior,57,198678.0,9,32.0,Agency,Secondary,False,3,False,Yes,False
+EMP1324,Sales,Junior,34,34340.0,1,1.0,Agency,Undergrad Degree,False,9,True,No,False
+EMP0834,Sales,Junior,32,36672.0,4,11.0,Agency,Undergrad Degree,False,6,False,Yes,True
+EMP0863,Sales,Junior,38,27982.0,4,4.0,Direct,Undergrad Degree,False,3,False,No,True
+EMP0601,IT,Junior,37,55600.0,6,10.0,Agency,Masters,False,7,True,N,False
+EMP0954,Finance,Junior,28,55589.0,3,6.0,Agency,Undergrad Degree,False,19,True,No,False
+EMP1101,IT,Junior,39,34179.0,2,8.0,Referral,Undergrad Degree,False,19,False,Yes,True
+EMP0789,IT,Lead,48,233716.0,4,,Direct,Secondary,True,76,False,No,False
+EMP0547,Sales,Junior,38,36061.0,7,7.0,Agency,Undergrad Degree,True,3,False,N,True
+EMP0744,Finance,Junior,38,28411.0,5,5.0,Direct,Masters,True,8,True,Yes,False
+EMP0697,IT,Mid,31,72659.0,5,12.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP1293,IT,Junior,24,28228.0,1,1.0,Direct,Secondary,False,25,False,No,True
+EMP1418,Sales,Senior,50,149426.0,-1,14.0,Referral,Secondary,False,29,True,No,False
+EMP1431,Sales,Junior,40,41446.0,0,4.0,Agency,Undergrad Degree,True,4,False,No,False
+EMP1428,IT,Junior,24,27959.0,0,2.0,Agency,Masters,False,3,True,Yes,False
+EMP1386,Sales,Junior,28,27513.0,1,1.0,Direct,Secondary,False,4,False,No,True
+EMP0965,Finance,Junior,52,44004.0,3,7.0,Direct,Undergrad Degree,False,3,False,Yes,False
+EMP1402,Sales,Junior,40,29982.0,1,7.0,Agency,Undergrad Degree,False,17,False,No,True
+EMP0960,IT,Junior,36,31786.0,3,3.0,Agency,Undergrad Degree,True,16,False,Yes,False
+EMP0929,Sales,Junior,26,43582.0,3,4.0,Direct,Masters,False,3,False,Yes,True
+EMP1092,HR,Junior,23,28951.0,2,2.0,Referral,Undergrad Degree,False,5,False,No,False
+EMP0183,IT,Senior,41,127952.0,17,,Direct,Undergrad Degree,False,15,False,No,False
+EMP0605,HR,Junior,33,34412.0,6,6.0,Agency,Undergrad Degree,False,29,False,No,False
+EMP0450,Sales,Mid,36,104663.0,8,8.0,Direct,Undergrad Degree,False,16,False,Y,False
+EMP0232,Sales,Mid,39,64456.0,13,19.0,Agency,Undergrad Degree,False,6,False,No,False
+EMP1302,HR,Junior,23,24661.0,1,1.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP1296,Sales,Junior,24,29533.0,1,1.0,Referral,Undergrad Degree,False,9,False,No,False
+EMP1163,Sales,Mid,43,79880.0,1,12.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0442,Finance,Mid,39,107405.0,8,14.0,Direct,Secondary,False,3,False,Yes,False
+EMP1145,Sales,Senior,45,128415.0,1,18.0,Direct,Undergrad Degree,False,25,False,No,False
+EMP0529,Sales,Junior,34,55905.0,7,9.0,Direct,Undergrad Degree,True,10,True,No,False
+EMP0582,IT,Mid,39,76385.0,6,6.0,Direct,Undergrad Degree,False,3,,No,False
+EMP1351,Sales,Junior,23,23885.0,1,1.0,Agency,Secondary,False,24,False,Yes,True
+EMP0562,Finance,Senior,42,118413.0,6,6.0,Direct,Masters,False,9,False,Yes,True
+EMP0335,IT,Junior,30,55468.0,10,12.0,Direct,Undergrad Degree,False,3,True,No,False
+EMP0645,IT,Senior,55,135901.0,5,36.0,Agency,Undergrad Degree,False,7,True,No,False
+EMP0619,HR,Junior,29,49455.0,6,6.0,Direct,Secondary,True,19,True,No,False
+EMP0875,HR,Junior,26,42213.0,4,8.0,Agency,UG Degree,False,3,False,No,False
+EMP0139,Sales,Mid,61,88962.0,21,28.0,Direct,Undergrad Degree,False,55,True,Yes,False
+EMP1303,Sales,Junior,31,24492.0,1,2.0,Agency,Masters,False,3,False,Yes,True
+EMP1377,HR,Junior,18,30280.0,1,1.0,Direct,Undergrad Degree,False,3,False,Yes,True
+EMP0995,Finance,Junior,45,32886.0,3,13.0,Direct,Undergrad Degree,False,8,False,Yes,False
+EMP0393,Finance,Junior,48,50289.0,9,9.0,Direct,,False,4,False,No,False
+EMP0674,Sales,Mid,27,100232.0,5,5.0,Direct,Undergrad Degree,False,32,False,No,True
+EMP1349,Sales,Junior,42,28469.0,1,7.0,Agency,Secondary,True,3,True,No,False
+EMP1226,Finance,Junior,19,20166.0,1,1.0,Direct,Undergrad Degree,False,61,False,No,True
+EMP1264,Sales,Junior,28,15174.0,1,1.0,Direct,Undergrad Degree,False,81,False,Yes,True
+EMP0590,HR,Mid,38,80407.0,6,8.0,Direct,Undergrad Degree,False,11,False,No,False
+EMP0737,Finance,Junior,36,50205.0,5,,Agency,Undergrad Degree,False,22,True,No,False
+EMP1084,IT,Junior,49,24618.0,2,7.0,Direct,MSc,False,9,False,No,False
+EMP0753,Sales,Junior,43,52705.0,5,14.0,Referral,Undergrad Degree,False,8,True,No,False
+EMP1210,Sales,Junior,19,31379.0,1,1.0,Direct,Masters,False,42,False,No,True
+EMP0861,HR,Junior,51,41576.0,4,7.0,Agency,Secondary,False,3,False,Yes,False
+EMP1038,IT,Junior,24,26055.0,2,4.0,Direct,Undergrad Degree,True,11,True,No,False
+EMP1289,Sales,Junior,27,24606.0,1,1.0,Direct,Masters,False,12,False,No,True
+EMP1395,Sales,Junior,32,26945.0,1,1.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0124,HR,Senior,46,132005.0,23,26.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0392,Sales,Junior,32,57800.0,9,12.0,Direct,Masters,False,3,False,Yes,False
+EMP1440,HR,Junior,18,29097.0,0,1.0,Agency,,True,3,False,No,True
+EMP0700,Finance,Mid,29,99036.0,5,6.0,Direct,Undergrad Degree,True,5,False,No,False
+EMP1270,HR,Junior,35,37019.0,1,1.0,Agency,Undergrad Degree,False,7,False,No,False
+EMP0112,Finance,Lead,56,244375.0,25,37.0,Direct,Undergrad Degree,False,26,True,Yes,False
+EMP1364,Sales,Junior,18,33045.0,1,1.0,Agency,Undergrad Degree,False,40,False,No,True
+EMP0879,Sales,Junior,57,42318.0,4,7.0,Direct,Undergrad Degree,True,22,,No,False
+EMP0579,IT,Mid,39,68079.0,6,10.0,Referral,Undergrad Degree,True,25,False,No,False
+EMP0828,Sales,Junior,31,49879.0,4,13.0,Agency,Undergrad Degree,False,13,False,No,False
+EMP0194,Finance,Mid,38,79906.0,16,20.0,Direct,Undergrad Degree,True,76,False,No,False
+EMP0865,IT,Junior,26,57094.0,4,6.0,Direct,Undergrad Degree,True,3,False,No,False
+EMP0203,Finance,Mid,51,81074.0,15,17.0,Direct,Undergrad Degree,False,20,False,N,False
+EMP0845,HR,Junior,30,54417.0,4,4.0,Direct,,False,26,False,Yes,False
+EMP1257,IT,Junior,35,31697.0,1,5.0,Agency,Undergrad Degree,False,102,False,Yes,False
+EMP0369,Sales,Mid,38,91378.0,9,9.0,Agency,Undergrad Degree,False,19,True,No,False
+EMP0539,IT,Junior,48,57124.0,7,19.0,Referral,Undergrad Degree,False,14,True,No,False
+EMP1381,IT,Junior,25,45688.0,1,1.0,Direct,Undergrad Degree,False,29,True,Yes,False
+EMP0381,Sales,Mid,41,61090.0,9,12.0,Direct,Undergrad Degree,False,4,False,No,False
+EMP1097,Sales,Junior,28,53118.0,2,3.0,Direct,Secondary,False,3,False,No,False
+EMP0652,Finance,Senior,55,123431.0,5,32.0,Direct,Undergrad Degree,False,3,True,Yes,False
+EMP0239,IT,Senior,42,133966.0,12,14.0,Agency,Masters,False,88,False,Yes,False
+EMP0747,IT,Junior,43,54021.0,5,18.0,Direct,Secondary,False,65,True,Yes,False
+EMP1408,Sales,Junior,25,28727.0,1,1.0,Agency,Undergrad Degree,False,3,False,No,True
+EMP0177,Finance,Senior,42,192545.0,18,23.0,Direct,Secondary,False,3,False,Yes,False
+EMP0470,Sales,Junior,31,32436.0,8,8.0,Direct,Undergrad Degree,False,3,False,No,False
+EMP0997,IT,Junior,43,32036.0,3,6.0,Referral,Undergrad Degree,True,3,False,No,False
+EMP0687,IT,Mid,27,77766.0,5,5.0,Agency,Undergrad Degree,True,3,True,No,False
+EMP1434,HR,Junior,27,42075.0,0,8.0,Direct,Secondary,False,3,False,N,True
+EMP0120,IT,Lead,44,227349.0,24,25.0,Agency,Secondary,False,8,True,No,False
+EMP0772,Finance,Junior,39,40707.0,5,20.0,Direct,Undergrad Degree,False,10,False,Yes,False
+EMP0945,Sales,Junior,46,25175.0,3,19.0,Agency,Secondary,False,23,False,Yes,False
+EMP1323,Finance,Junior,18,48893.0,1,,Agency,Undergrad Degree,False,3,False,No,True
+EMP0802,Sales,Mid,38,68951.0,4,8.0,Referral,Undergrad Degree,False,19,False,Yes,False
+EMP0620,Sales,Junior,39,34566.0,6,6.0,Referral,Secondary,False,3,False,No,False

@@ -1,0 +1,16 @@
+Title,Year,Rated,Runtime,Genre,Director,Actors,Country,RatingScore,Type
+London Has Fallen,2016,R,99 min,"Action, Crime, Thriller",Babak Najafi,"Gerard Butler, Morgan Freeman, Charlotte Riley, Angela Bassett","UK, USA, Bulgaria",28,movie
+Deadpool,2016,R,108 min,"Action, Adventure, Comedy",Tim Miller,"Ryan Reynolds, Karan Soni, Ed Skrein, Michael Benyaer","USA, Canada",65,movie
+Kung Fu Panda 3,2016,PG,95 min,"Animation, Action, Adventure","Alessandro Carloni, Jennifer Yuh","Jack Black, Bryan Cranston, Dustin Hoffman, Angelina Jolie","China, USA",64,movie
+Spectre,2015,PG-13,148 min,"Action, Adventure, Thriller",Sam Mendes,"Daniel Craig, Christoph Waltz, Léa Seydoux, Ralph Fiennes","UK, USA",60,movie
+Brooklyn,2015,PG-13,111 min,"Drama, Romance",John Crowley,"Saoirse Ronan, Hugh Gormley, Brid Brennan, Jim Broadbent","Ireland, UK, Canada",87,movie
+The Revenant,2015,R,156 min,"Adventure, Drama, Thriller",Alejandro González Iñárritu,"Leonardo DiCaprio, Tom Hardy, Domhnall Gleeson, Will Poulter",USA,76,movie
+1917,2019,R,119 min,"Drama, War",Sam Mendes,"Dean-Charles Chapman, George MacKay, Daniel Mays, Colin Firth",USA,78,movie
+Joker,2019,R,122 min,"Crime, Drama, Thriller",Todd Phillips,"Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy",USA,59,movie
+Uncut Gems,2019,R,135 min,"Crime, Drama, Thriller","Benny Safdie, Josh Safdie","Mesfin Lamengo, Sun Zhi Hua-Hilton, Liang Wei-Hui-Duncan, Sunny Wu Jin Zahao",USA,90,movie
+Knives Out,2019,PG-13,131 min,"Comedy, Crime, Drama, Mystery, Thriller",Rian Johnson,"Daniel Craig, Chris Evans, Ana de Armas, Jamie Lee Curtis",USA,82,movie
+Jumanji: The Next Level,2019,PG-13,123 min,"Action, Adventure, Comedy, Fantasy",Jake Kasdan,"Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan",USA,58,movie
+Venom,2018,PG-13,112 min,"Action, Sci-Fi, Thriller",Ruben Fleischer,"Tom Hardy, Michelle Williams, Riz Ahmed, Scott Haze","China, USA",35,movie
+Incredibles 2,2018,PG,118 min,"Animation, Action, Adventure, Comedy, Family, Sci-Fi",Brad Bird,"Craig T. Nelson, Holly Hunter, Sarah Vowell, Huck Milner",USA,80,movie
+Suspiria,2018,R,152 min,"Fantasy, Horror, Mystery, Thriller",Luca Guadagnino,"Chloë Grace Moretz, Tilda Swinton, Doris Hick, Malgorzata Bela","Italy, USA",64,movie
+A Quiet Place,2018,PG-13,90 min,"Drama, Horror, Sci-Fi",John Krasinski,"Emily Blunt, John Krasinski, Millicent Simmonds, Noah Jupe",USA,82,movie

@@ -33,9 +33,7 @@
 
 import java.util.LinkedList;
 import java.util.Queue;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+
 
 // Simplified Enum for Gender
 enum Gender {
@@ -166,16 +164,6 @@ class Club {
     public Queue<Person> getQueue() {
         return queue; // Accessor for the queue of people
     }
-}
-
-class Tests{
-    private Doorman doorman;
-    
-    @BeforeEach
-    void setup(){
-        doorman = new Doorman(2);
-    }
-
 }
 
 class ClubMain {
