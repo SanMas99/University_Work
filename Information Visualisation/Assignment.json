@@ -1,0 +1,225 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-13/Scooby-Doo%20Completed.csv"
+  },
+  "transform": [
+    {
+      "fold": [
+        "caught\\.fred",
+        "caught\\.daphnie",
+        "caught\\.velma",
+        "caught\\.shaggy",
+        "caught\\.scooby"
+      ],
+      "as": ["character_raw", "caught"]
+    },
+    {
+      "calculate": "replace(replace(replace(replace(replace(datum.character_raw, 'caught\\.fred', 'Fred'), 'caught\\.daphnie', 'Daphnie'), 'caught\\.velma', 'Velma'), 'caught\\.shaggy', 'Shaggy'), 'caught\\.scooby', 'Scooby')",
+      "as": "character"
+    }
+  ],
+  "params": [
+    {
+      "name": "network_selection",
+      "select": {
+        "type": "point",
+        "fields": ["network"]
+      },
+      "bind": {
+        "input": "select",
+        "options": [
+          "ABC",
+          "CBS",
+          "Cartoon Network",
+          "Syndication",
+          "TBC",
+          "The CW",
+          "The WB",
+          "Warner Bros. Picture",
+          "Warner Home Video"
+        ],
+        "name": "Select Network:"
+      }
+    },
+
+  ],
+  "vconcat": [
+    {
+      "mark": "point",
+      "encoding": {
+        "x": {
+          "field": "imdb",
+          "type": "quantitative",
+          "title": "IMDb Rating"
+        },
+        "y": {
+          "field": "engagement",
+          "type": "quantitative",
+          "title": "Engagement Score",
+          "scale": { "type": "log" }
+        },
+        "color": {
+          "field": "network",
+          "type": "nominal",
+          "title": "Network",
+          "scale": { "scheme": "category20" }
+        },
+        "shape": {
+          "field": "season",
+          "type": "nominal",
+          "title": "Season"
+        },
+        "tooltip": [
+          { "field": "title", "type": "nominal", "title": "Episode Title" },
+          {
+            "field": "monster.name",
+            "type": "nominal",
+            "title": "Monster Name"
+          },
+          { "field": "imdb", "type": "quantitative", "title": "IMDb Rating" },
+          {
+            "field": "engagement",
+            "type": "quantitative",
+            "title": "Engagement Score"
+          }
+        ]
+      },
+      "transform": [
+        { "filter": "datum.imdb != null && datum.engagement != null" },
+        { "filter": { "param": "network_selection" } },
+      ],
+      "width": 700,
+      "height": 500
+    },
+    {
+      "hconcat": [
+        {
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "network",
+              "type": "nominal",
+              "title": "Network",
+              "axis": { "labelAngle": -45 }
+            },
+            "y": {
+              "aggregate": "mean",
+              "field": "imdb",
+              "type": "quantitative",
+              "title": "Average IMDb Rating"
+            },
+            "color": {
+              "title": "Network",
+              "condition": {
+                "param": "network_selection",
+                "type": "nominal",
+                "field": "network"
+              },
+              "value": "grey"
+            },
+            "tooltip": [
+              {
+                "field": "network",
+                "type": "nominal",
+                "title": "Network"
+              },
+              {
+                "aggregate": "mean",
+                "field": "imdb",
+                "type": "quantitative",
+                "title": "Average IMDb Rating"
+              }
+            ]
+          },
+          "transform": [
+            { "filter": "datum.imdb != null" },
+          ],
+          "width": 300,
+          "height": 200
+        },
+        {
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "character",
+              "type": "nominal",
+              "title": "Character",
+              "axis": { "labelAngle": -45 }
+            },
+            "y": {
+              "aggregate": "count",
+              "field": "caught",
+              "type": "quantitative",
+              "title": "Amount Caught"
+            },
+            "tooltip": [
+              {
+                "field": "imdb",
+                "type": "nominal",
+                "title": "Avg IMDb Rating",
+                "aggregate": "mean"
+              },
+              {
+                "aggregate": "count",
+                "field": "caught",
+                "type": "quantitative",
+                "title": "Amount Caught"
+              }
+            ]
+          },
+          "transform": [
+            {
+              "filter": "datum.caught == 'TRUE' && datum.imdb != null && datum.caught != 'null' && datum.imdb != ''"
+            },
+            { "filter": { "param": "network_selection" } }
+          ],
+          "width": 300,
+          "height": 200
+        },
+    {
+  "transform": [
+    {"filter": "datum['monster.type'] != null"},
+    {"filter": { "param": "network_selection" }},
+    {
+      "calculate": "split(datum['monster.type'], ',')",
+      "as": "monster_types"
+    },
+    {
+      "flatten": ["monster_types"]
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "monster_types",
+      "type": "nominal",
+      "title": "Monster Types",
+      "axis": {"labelAngle": -45}
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "title": "Count"
+    },
+    "tooltip": [
+      {
+        "field": "monster_types",
+        "type": "nominal",
+        "title": "Monster Type"
+      },
+      {
+        "aggregate": "count",
+        "type": "quantitative",
+        "title": "Count"
+      }
+    ]
+  },
+  "width": 600,
+  "height": 400
+    },
+  ]
+}
+]
+}
+
