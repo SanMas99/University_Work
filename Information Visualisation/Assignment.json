@@ -1,23 +1,41 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-13/Scooby-Doo%20Completed.csv"
+    "url": "https://raw.githubusercontent.com/SanMas99/University_Work/main/Information Visualisation/ScoobyDooCleaned.csv"
   },
-  "transform": [
-    {
-      "fold": [
-        "caught\\.fred",
-        "caught\\.daphnie",
-        "caught\\.velma",
-        "caught\\.shaggy",
-        "caught\\.scooby"
-      ],
-      "as": ["character_raw", "caught"]
+
+  "title": {
+    "text": "Average IMDb Rating By Factor Exploration",
+    "anchor": "middle",
+    "fontSize": 20,
+    "fontWeight": "bold"
     },
-    {
-      "calculate": "replace(replace(replace(replace(replace(datum.character_raw, 'caught\\.fred', 'Fred'), 'caught\\.daphnie', 'Daphnie'), 'caught\\.velma', 'Velma'), 'caught\\.shaggy', 'Shaggy'), 'caught\\.scooby', 'Scooby')",
-      "as": "character"
-    }
+  "transform": [
+            {
+              "calculate": "split(datum.monster_unmasked_by, ',')",
+              "as": "unmasked_char"
+            },
+            {
+              "flatten": ["unmasked_char"]
+            },
+            {
+              "calculate": "split(datum['monster_caught_by'], ',')",
+              "as": "caught_char"
+            },
+            {
+              "filter": "datum.caught_char != null && datum.caught_char != ''"
+            },
+            {
+              "flatten": ["caught_char"]
+            },
+            {
+              "calculate": "split(datum['monster.type'], ',')",
+              "as": "monster_types"
+            },
+            {
+              "flatten": ["monster_types"]
+            }
+
   ],
   "params": [
     {
@@ -25,11 +43,14 @@
       "select": {
         "type": "point",
         "fields": ["network"]
+
       },
       "bind": {
         "input": "select",
         "options": [
+          null,
           "ABC",
+          "Boomerang",
           "CBS",
           "Cartoon Network",
           "Syndication",
@@ -43,9 +64,63 @@
       }
     },
 
+{
+      "name": "unmasked_char_selection",
+      "select": {
+        "type": "point",
+        "fields": ["unmasked_char"]
+      },
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Fred",
+          "Daphnie",
+          "Velma",
+          "Shaggy",
+          "Scooby",
+          "No Monster"
+        ],
+        "name": "Who Unmasked the Monster:"
+      }
+    },
+
+    {
+      "name": "caught_char_selection",
+      "select": {
+        "type": "point",
+        "fields": ["caught_char"]
+      },
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Fred",
+          "Daphnie",
+          "Velma",
+          "Shaggy",
+          "Scooby",
+          "No Monster"
+        ],
+        "name": "Who Caught the Monster:"
+      }
+    },
+
+        {
+      "name": "monster_type_selection",
+      "select": {
+        "type": "point",
+        "fields": ["monster_types"],
+        "toggle":false,
+        "on":"click"
+      }
+     }
+
   ],
   "vconcat": [
     {
+      "hconcat":[
+      {
       "mark": "point",
       "encoding": {
         "x": {
@@ -63,17 +138,26 @@
           "field": "network",
           "type": "nominal",
           "title": "Network",
-          "scale": { "scheme": "category20" }
+          "scale": { "scheme": "category20" },
+          "legend": {
+          "orient": "left",
+          "offset": 1
+        }
         },
+
         "shape": {
           "field": "season",
           "type": "nominal",
-          "title": "Season"
+          "title": "Season",
+          "legend": {
+          "orient": "left",
+          "offset": 1
+        }
         },
         "tooltip": [
           { "field": "title", "type": "nominal", "title": "Episode Title" },
           {
-            "field": "monster.name",
+            "field": "monster\\.name",
             "type": "nominal",
             "title": "Monster Name"
           },
@@ -88,13 +172,15 @@
       "transform": [
         { "filter": "datum.imdb != null && datum.engagement != null" },
         { "filter": { "param": "network_selection" } },
+        { "filter": { "param": "unmasked_char_selection" } },
+        { "filter": { "param": "monster_type_selection" } },
+        { "filter": { "param": "caught_char_selection" } }
       ],
-      "width": 700,
-      "height": 500
+      "width": 300,
+      "height": 300
     },
+
     {
-      "hconcat": [
-        {
           "mark": "bar",
           "encoding": {
             "x": {
@@ -104,10 +190,10 @@
               "axis": { "labelAngle": -45 }
             },
             "y": {
-              "aggregate": "mean",
+              "aggregate": "average",
               "field": "imdb",
               "type": "quantitative",
-              "title": "Average IMDb Rating"
+              "title": null
             },
             "color": {
               "title": "Network",
@@ -125,101 +211,192 @@
                 "title": "Network"
               },
               {
-                "aggregate": "mean",
+                "aggregate": "average",
                 "field": "imdb",
                 "type": "quantitative",
-                "title": "Average IMDb Rating"
+                "title": null
               }
             ]
           },
+
+
           "transform": [
             { "filter": "datum.imdb != null" },
+            { "filter": { "param": "monster_type_selection" } },
+            { "filter": { "param": "caught_char_selection" } },
+            { "filter": { "param": "unmasked_char_selection" } }
           ],
           "width": 300,
-          "height": 200
+          "height": 300
         },
         {
-          "mark": "bar",
+          "mark": "line",
           "encoding": {
             "x": {
-              "field": "character",
+              "field": "year",
               "type": "nominal",
-              "title": "Character",
+              "title": "Network",
+              "scale": {
+    "domain": [1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021]
+
+  },
               "axis": { "labelAngle": -45 }
             },
             "y": {
-              "aggregate": "count",
-              "field": "caught",
+              "aggregate": "average",
+              "field": "imdb",
               "type": "quantitative",
-              "title": "Amount Caught"
+              "title": null
+            },
+
+            "tooltip": [
+              {
+                "field": "network",
+                "type": "nominal",
+                "title": "Network"
+              },
+              {
+                "aggregate": "average",
+                "field": "imdb",
+                "type": "quantitative",
+                "title": null
+              }
+            ]
+          },
+
+
+          "transform": [
+            { "filter": "datum.imdb != null" },
+            { "filter": { "param": "network_selection" } },
+            { "filter": { "param": "caught_char_selection" } },
+            { "filter": { "param": "unmasked_char_selection" } },
+            { "filter": { "param": "monster_type_selection" } },
+            
+            {"calculate": "year(datum['date.aired'])","as": "year"}
+          ],
+          "width": 800,
+          "height": 300
+        }
+      ]
+    },
+
+    {
+      "hconcat": [
+        
+        {
+          "mark": "bar",
+          "transform": [
+            {
+              "filter": "datum.imdb != null && datum.imdb != ''"
+            },
+            {"fold": ["caught_char", "unmasked_char"],"as": ["action", "character"]},
+            { "filter": { "param": "network_selection" } },
+            { "filter": { "param": "caught_char_selection" } },
+            { "filter": { "param": "unmasked_char_selection" } },
+            { "filter": { "param": "monster_type_selection" } }
+          ],
+          "encoding": {
+            
+            "x": {
+              "field": "character",
+              "type": "nominal",
+              "title": null, 
+              "axis": { "labelAngle": 0 },
+              "sort":"-y"
+            },
+
+            "xOffset":{
+              "field": "action",
+              "type": "nominal",
+              "title": "Action"
+            },
+            
+            "y": {
+              "aggregate":"average",
+              "field": "imdb",
+              "type": "quantitative",
+              "title": null
+            },
+            "color": {
+              
+                "field": "action",
+                "type": "nominal",
+                "legend":null,
+                "scale": { "range": ["red","green"] }
             },
             "tooltip": [
               {
                 "field": "imdb",
-                "type": "nominal",
+                "type": "quantitative",
                 "title": "Avg IMDb Rating",
                 "aggregate": "mean"
               },
               {
                 "aggregate": "count",
-                "field": "caught",
+                "field": "character",
                 "type": "quantitative",
-                "title": "Amount Caught"
+                "title": "Amount "
               }
             ]
           },
-          "transform": [
-            {
-              "filter": "datum.caught == 'TRUE' && datum.imdb != null && datum.caught != 'null' && datum.imdb != ''"
-            },
-            { "filter": { "param": "network_selection" } }
-          ],
+          
           "width": 300,
-          "height": 200
+          "height": 300
         },
-    {
-  "transform": [
-    {"filter": "datum['monster.type'] != null"},
-    {"filter": { "param": "network_selection" }},
-    {
-      "calculate": "split(datum['monster.type'], ',')",
-      "as": "monster_types"
+        {
+          "transform": [
+            { "filter": "datum['monster.type'] != null" },
+            { "filter": { "param": "network_selection" } },
+            { "filter": { "param": "unmasked_char_selection" } },
+            { "filter": { "param": "caught_char_selection" } },
+
+            { "filter": "datum.monster_types != ''"}
+          ],
+          "mark": "bar",
+          "encoding": {
+            "y": {
+              "field": "monster_types",
+              "type": "nominal",
+              "title": "Monster Types",
+  
+              "sort":"-x"
+
+            },
+          "yOffset": {
+            "field": "action",
+            "type": "nominal",
+            "title": "Action"
     },
-    {
-      "flatten": ["monster_types"]
+            "x": {
+              "aggregate": "average",
+              "field":"imdb",
+              "type": "quantitative",
+              "title": "Avg IMDb Rating"
+            },
+            "color": {
+              "condition": {
+                "param": "monster_type_selection",
+                "type": "nominal"
+              },
+              "value": "grey"
+            },
+            "tooltip": [
+              {
+                "field": "monster_types",
+                "type": "nominal",
+                "title": "Monster Type"
+              },
+              {
+                "aggregate": "count",
+                "type": "quantitative",
+                "title": "Count"
+              }
+            ]
+          },
+          "width": 600,
+          "height": 400
+        }
+      ]
     }
-  ],
-  "mark": "bar",
-  "encoding": {
-    "x": {
-      "field": "monster_types",
-      "type": "nominal",
-      "title": "Monster Types",
-      "axis": {"labelAngle": -45}
-    },
-    "y": {
-      "aggregate": "count",
-      "type": "quantitative",
-      "title": "Count"
-    },
-    "tooltip": [
-      {
-        "field": "monster_types",
-        "type": "nominal",
-        "title": "Monster Type"
-      },
-      {
-        "aggregate": "count",
-        "type": "quantitative",
-        "title": "Count"
-      }
-    ]
-  },
-  "width": 600,
-  "height": 400
-    },
   ]
 }
-]
-}
-
