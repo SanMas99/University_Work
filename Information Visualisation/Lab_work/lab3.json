@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/colmr/vis_class/master/London2012Vega.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.Weight > 0"
+    },
+    {
+      "filter": "datum.Weight < 200"
+    },
+    {
+      "filter": "datum.Height > 0"
+    }
+  ],
+  
+"width":500,"height":500,
+
+"config": {"legend": {"orient":"bottom-right"}},
+  
+"title": {
+"text": "Olympic Athletes - Height vs Weight",
+"anchor": "middle",
+"fontSize":24,
+},
+"mark": "rect",
+
+"encoding": {
+  "y": {
+    "field": "Height",
+    "type": "quantitative",
+    "bin": {"maxbins":100},
+    "scale": {"zero": false},
+    "axis": {"title": "Height"}
+    },
+
+    "x": {
+    "field": "Weight",
+    "type": "quantitative",
+    "bin": {"maxbins":100},
+    "scale": {"zero": false}
+    },
+    "color":{
+      "aggregate": "count",
+      "type": "quantitative",
+      "legend": {
+      "title": "Number of Athletes",
+      "direction": "horizontal"
+      }
+    }
+  }
+  
+}

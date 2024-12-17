@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/colmr/vis_class/master/London2012Vega.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.Weight > 0"
+    },
+    {
+      "filter": "datum.Height > 0"
+    }
+  ],
+  
+"width":500,"height":500,
+
+"config": {"legend": {"orient":"bottom-right", "titleFontSize":16}, "axis": {"titleFontSize":24}, "padding":2},
+  
+"title": {
+"text": "Olympic Athletes - Height vs Weight",
+"anchor": "middle",
+"fontSize":24
+},
+"mark": "circle",
+
+"encoding": {
+  "y": {
+    "field": "Height",
+    "type": "quantitative",
+    "scale": {"zero": false}
+    },
+    "x": {
+    "field": "Weight",
+    "type": "quantitative",
+    "scale": {"zero": false}
+    },
+    "color":{
+      "field": "Sex",
+      "type": "nominal",
+      "scale": {"domain":["F","M"], "range": ["#8101FA", "#00C7A9"]}
+    },
+    "tooltip": {"field": "Name", "type": "nominal"}
+  }
+  
+}
