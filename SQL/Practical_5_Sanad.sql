@@ -385,3 +385,63 @@ group by feature_role.role;
 
 
 -- q4
+
+drop function if exists CountRoleTypePercentage;
+
+DELIMITER //
+create function CountRoleTypePercentage(character_name varchar(255), role_type varchar(255))
+returns decimal(5,2)
+deterministic
+begin
+    declare total_roles int;
+    declare role_count int;
+    
+    select count(*) into total_roles
+    from feature_role 
+    where role = character_name;
+    
+    select count(*) into role_count
+    from feature_role 
+    join role_type on feature_role.role_id = role_type.role_id
+    where feature_role.role = character_name and role_type.role_type = role_type;
+
+    if total_roles = 0 then
+        return 0;
+    else
+        return (role_count / total_roles) * 100;
+    end if;
+end;
+//
+DELIMITER ;
+
+
+
+-- q5
+drop function if exists CountActorTypePercentage ;
+
+DELIMITER //
+create function CountActorTypePercentage (actor varchar(255), role_type varchar(255))
+returns decimal(5,2)
+deterministic
+begin
+    declare total_roles int;
+    declare role_count int;
+    
+    select count(*) into total_roles
+    from feature_role 
+    where person = actor;
+    
+    select count(*) into role_count
+    from feature_role 
+    join role_type on feature_role.role_id = role_type.role_id
+    where feature_role.person = actor and role_type.role_type = role_type;
+
+    if total_roles = 0 then
+        return 0;
+    else
+        return (role_count / total_roles) * 100;
+    end if;
+end;
+//
+DELIMITER ;
+

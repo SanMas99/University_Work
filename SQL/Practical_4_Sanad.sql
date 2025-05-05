@@ -28,9 +28,9 @@ from franchise_diversity;
 
 
 -- q2
-DROP view IF EXISTS franchise_diversity;
+DROP view IF EXISTS franchise_grosses ;
 
-create view franchise_diversity as
+create view franchise_grosses  as
 select t1.franchise_id, t1.name, t1.year, t1.title, t1.gross , avg(t1.gross) over (partition by t1.name) as average
 from (
 	select franchises.franchise_id, franchises.name, features.year, features.title, domestic_gross.amount + international_gross.amount as gross
